@@ -1,0 +1,25 @@
+
+state={
+	id=147
+	name="STATE_147"
+
+	history={
+		owner = FIN
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = FIN
+		victory_points = {
+			197 1 
+		}
+
+	}
+
+	provinces={
+		197 3067 6175 9074 9119 9123 9158 9198 11085 11181 
+	}
+	manpower=4630
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

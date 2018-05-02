@@ -1,0 +1,23 @@
+
+state={
+	id=81
+	name="STATE_81"
+
+	history={
+		owner = ROS
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+
+		}
+		add_core_of = ROS
+
+	}
+
+	provinces={
+		630 637 3630 3645 3649 6652 6667 9756 11588 11592 11605 11657 
+	}
+	manpower=1519300
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=460
+	name="STATE_460"
+
+	history={
+		owner = CGE
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		1013 1058 1145 1160 4046 4131 4146 7065 7081 7166 9964 9976 10078 11939 11953 12051 12760 13077 
+	}
+	manpower=2343837
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=128
+	name="STATE_128"
+	resources={
+		steel=27.000
+	}
+
+	history={
+		owner = NWS
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 6
+
+		}
+		victory_points = {
+			9297 25 
+		}
+		add_core_of = NWS
+
+	}
+
+	provinces={
+		3241 3301 6237 6270 6301 7239 9268 9297 11279 11345 
+	}
+	manpower=3685235
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}
