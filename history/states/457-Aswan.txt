@@ -1,0 +1,22 @@
+
+state={
+	id=457
+	name="STATE_457"
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ETH
+
+	}
+
+	provinces={
+		1080 1977 2003 2046 4068 4910 5069 7156 7989 9957 10126 10902 12002 12725 12889 
+	}
+	manpower=2194
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

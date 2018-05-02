@@ -1,0 +1,27 @@
+
+state={
+	id=188
+	name="STATE_188"
+
+	history={
+		owner = BLK
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			3288 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = BLK
+
+	}
+
+	provinces={
+		281 348 395 3288 3384 6332 9327 11265 11386 
+	}
+	manpower=150000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

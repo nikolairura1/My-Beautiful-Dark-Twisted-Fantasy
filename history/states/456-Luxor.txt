@@ -1,0 +1,22 @@
+
+state={
+	id=456
+	name="STATE_456"
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = ETH
+
+	}
+
+	provinces={
+		1028 1064 1151 1206 4963 7030 7073 7144 8105 10028 10745 10844 11974 11999 12044 12071 12771 12796 12826 12881 
+	}
+	manpower=4224516
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

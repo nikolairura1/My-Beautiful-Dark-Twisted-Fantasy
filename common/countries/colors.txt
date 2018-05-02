@@ -426,7 +426,18 @@ ANG = {
 	color = rgb { 37 140 61 }
 	color_ui = rgb { 37 140 61 }
 }
-
+MLI = {
+	color = rgb { 0 127 70 }
+	color_ui = rgb { 0 127 70 }
+}
+POM = {
+	color = rgb { 138 182 35 }
+	color_ui = rgb { 138 182 35 }
+}
+OCC = {
+	color = rgb { 123 176 128 }
+	color_ui = rgb { 123 176 128 }
+}
 COG = {
 	color = rgb { 152 159 209 }
 	color_ui = rgb { 152 159 209 }
@@ -533,8 +544,12 @@ KOR = {
 	color_ui = rgb { 255 248 229 }	
 }
 ISR = {
-	color = rgb { 152  130  191 }
-	color_ui = rgb { 152  130  191 }
+	color = rgb { 36  184  247 }
+	color_ui = rgb { 36  184  247 }
+}
+BLK = {
+	color = rgb { 188  58  58 }
+	color_ui = rgb { 188  58  58 }
 }
 D01 = {
 	color = rgb { 200 100 31 }
