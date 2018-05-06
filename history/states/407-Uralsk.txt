@@ -1,0 +1,22 @@
+
+state={
+	id=407
+	name="STATE_407"
+
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = PER
+
+	}
+
+	provinces={
+		432 508 554 576 1254 1290 1318 3502 3563 4322 4351 7438 9462 9526 9528 11442 11469 11480 11510 11552 
+	}
+	manpower=268572
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

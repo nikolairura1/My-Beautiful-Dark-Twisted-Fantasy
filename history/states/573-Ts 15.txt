@@ -1,0 +1,25 @@
+
+state={
+	id=573
+	name="STATE_573"
+	resources={
+		chromium=23.000
+	}
+
+	history={
+		owner = DRR
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = DRR
+
+	}
+
+	provinces={
+		237 278 361 1233 1821 3280 4758 7228 7320 10133 10136 10142 10329 11223 11307 12117 12287 12567 
+	}
+	manpower=556677
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

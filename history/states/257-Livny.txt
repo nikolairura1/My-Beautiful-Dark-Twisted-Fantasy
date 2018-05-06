@@ -1,0 +1,25 @@
+
+state={
+	id=257
+	name="STATE_257"
+	resources={
+		chromium=7.000
+	}
+
+	history={
+		owner = DRR
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = DRR
+
+	}
+
+	provinces={
+		232 275 340 367 396 3332 3389 9245 9312 9367 11227 11296 11323 11351 11381 
+	}
+	manpower=1779583
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=589
+	name="STATE_589"
+
+	history={
+		owner = CHI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = CHI
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1223 1239 1402 1591 1668 1825 1840 4224 4250 4389 4595 4651 4674 4764 4773 4845 7332 7335 7405 7407 7425 7711 7784 7795 7856 10146 10161 10179 10290 10292 10547 10550 10619 10653 10680 12111 12385 12529 12583 12635 12662 13147 13148 13149 13197 
+	}
+	manpower=535191
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

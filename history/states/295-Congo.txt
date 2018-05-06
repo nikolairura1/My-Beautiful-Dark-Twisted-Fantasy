@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = BEL
+		owner = KOL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -23,12 +23,12 @@ state={
 		victory_points = {
 			5117 3 
 		}
-		add_core_of = COG
+		add_core_of = KOL
 
 	}
 
 	provinces={
-		1516 1731 1817 1929 1968 2024 4128 4515 5117 7716 9986 10025 10858 12795 12896 12907 12945 
+		1516 1731 1817 1929 1968 2024 4128 4515 5117 7716 9986 10025 10858 12795 12896 12945 
 	}
 	manpower=3540948
 	buildings_max_level_factor=1.000

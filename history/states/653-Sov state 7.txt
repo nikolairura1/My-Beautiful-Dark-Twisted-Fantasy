@@ -1,0 +1,35 @@
+
+state={
+	id=653
+	name="STATE_653"
+
+	history={
+		owner = EKN
+		victory_points = {
+			1821 1 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = EKN
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		307 1543 1704 1750 1771 1808 1841 4813 7778 9553 10189 10720 12102 12696 
+	}
+	manpower=2161650
+	buildings_max_level_factor=1.000
+	state_category=city
+}

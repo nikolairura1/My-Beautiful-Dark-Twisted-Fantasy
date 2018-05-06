@@ -182,8 +182,12 @@ IRQ = {
 	color_ui = rgb { 231 148 129 }
 }
 JAP = {
-	color = hsv { 0.05 0.3 1 }
-	color_ui = hsv { 0.05 0.25 1.2 }
+	color = rgb { 237 28 36 }
+	color_ui = rgb { 237 28 36 }
+}
+WAL = {
+	color = rgb { 133 124 177 }
+	color_ui = rgb { 133 124 177 }
 }
 LIB = {
 	color = rgb { 152 130 191 }
@@ -550,6 +554,50 @@ ISR = {
 BLK = {
 	color = rgb { 188  58  58 }
 	color_ui = rgb { 188  58  58 }
+}
+GUJ = {
+	color = rgb { 255  128  0 }
+	color_ui = rgb { 255  128  0 }
+}
+CSK = {
+	color = rgb { 226  194  65 }
+	color_ui = rgb { 226  194  65 }
+}
+KMK = {
+	color = rgb { 153  217  234 }
+	color_ui = rgb { 153  217  234 }
+}
+SIC = {
+	color = rgb { 17  17  17 }
+	color_ui = rgb { 17 17 17 }
+}
+IND = {
+	color = rgb { 190  3  101 }
+	color_ui = rgb { 190  3  101 }
+}
+NJO = {
+	color = rgb { 255  207  34 }
+	color_ui = rgb { 255  207  34 }
+}
+EKN = {
+	color = rgb { 137  32  10 }
+	color_ui = rgb { 137  32  10 }
+}
+KOL = {
+	color = rgb { 0  83  166 }
+	color_ui = rgb { 0  83  166 }
+}
+GUY = {
+	color = rgb { 103  103  103 }
+	color_ui = rgb { 103  103  103 }
+}
+NVZ = {
+	color = rgb { 118  177  188 }
+	color_ui = rgb { 118  177  188 }
+}
+DRR = {
+	color = rgb { 120  144  186 }
+	color_ui = rgb { 120  144  186 }
 }
 D01 = {
 	color = rgb { 200 100 31 }

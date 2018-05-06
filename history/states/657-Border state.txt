@@ -7,18 +7,18 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = NJO
 		buildings = {
 			infrastructure = 3
 			air_base = 2
 
 		}
-		add_core_of = SOV
+		add_core_of = NJO
 
 	}
 
 	provinces={
-		1802 1842 4246 4725 4779 4829 7616 7763 7801 10655 10722 12654 12678 
+		1724 1739 1772 1802 1807 1842 4246 4725 4779 4829 7616 7754 7763 7801 7871 10590 10655 10722 12654 12657 12678 
 	}
 	manpower=308380
 	buildings_max_level_factor=1.000

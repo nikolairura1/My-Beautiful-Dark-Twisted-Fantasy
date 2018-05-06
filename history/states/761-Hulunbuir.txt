@@ -1,0 +1,22 @@
+
+state={
+	id=761
+	name="STATE_761"
+
+	history={
+		owner = NJO
+		add_core_of = NJO
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		1776 4745 4852 10567 10638 13150 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

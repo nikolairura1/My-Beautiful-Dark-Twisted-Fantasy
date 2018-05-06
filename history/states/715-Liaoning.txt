@@ -4,10 +4,8 @@ state={
 	name="STATE_715"
 
 	history={
-		owner = MAN
-		add_core_of = CHI
-		add_core_of = MAN
-		add_core_of = PRC
+		owner = NJO
+		add_core_of = NJO
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -18,7 +16,7 @@ state={
 	}
 
 	provinces={
-		846 887 916 930 1499 1508 1558 1627 1638 3877 3978 4561 4642 6893 6951 7812 9788 9831 9927 10429 11771 11808 11836 11903 12337 12469 12478 
+		846 887 916 930 1499 1508 1558 1627 1638 3877 3978 4514 4561 4642 6893 6951 7812 9788 9831 9927 10429 11771 11808 11836 11903 12337 12469 12478 
 	}
 	manpower=3643373
 	buildings_max_level_factor=1.000

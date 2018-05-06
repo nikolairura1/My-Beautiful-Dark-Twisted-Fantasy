@@ -4,7 +4,7 @@ state={
 	name="STATE_159"
 
 	history={
-		owner = ITA
+		owner = SWI
 		victory_points = {
 			3780 15 
 		}
@@ -15,7 +15,7 @@ state={
 			air_base = 10
 
 		}
-		add_core_of = ITA
+		add_core_of = SWI
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 7
@@ -28,7 +28,7 @@ state={
 	}
 
 	provinces={
-		607 611 773 776 969 3776 3780 3782 6635 6661 6780 9584 9741 11568 11570 11587 11730 11734 
+		603 607 611 773 776 969 3776 3780 3782 6606 6635 6661 6780 6790 9584 9741 9752 11568 11570 11726 11730 11734 
 	}
 	manpower=5597704
 	buildings_max_level_factor=1.000

@@ -1,0 +1,22 @@
+
+state={
+	id=440
+	name="STATE_440"
+
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = PER
+
+	}
+
+	provinces={
+		1910 2076 4979 7106 8007 8022 8106 9084 10066 10139 10173 10772 10843 10887 10898 10905 12005 12754 12792 12822 
+	}
+	manpower=13665000
+	buildings_max_level_factor=1.000
+	state_category=town
+}
