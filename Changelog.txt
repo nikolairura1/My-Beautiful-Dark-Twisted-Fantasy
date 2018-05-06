@@ -1,0 +1,9 @@
+Write the changes you have made during your turn here and format it so
+Name Date
+	Changes made.
+The latest changes should be written above the previous changes but below here
+
+
+
+Divexz 05/06/18
+	-Set up the inital starting posistions of all nations
