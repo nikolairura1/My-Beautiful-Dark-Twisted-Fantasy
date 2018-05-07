@@ -539,7 +539,7 @@ GTR = {
     color = rgb { 255 216 0 }
     color_ui = rgb { 255 216 0 }
 }
-DDR = {
+RUT = {
     color = rgb { 120 150 80 }
     color_ui = rgb { 150 180 120 }
 }
@@ -595,7 +595,7 @@ NVZ = {
 	color = rgb { 118  177  188 }
 	color_ui = rgb { 118  177  188 }
 }
-DRR = {
+RUT = {
 	color = rgb { 120  144  186 }
 	color_ui = rgb { 120  144  186 }
 }

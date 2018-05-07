@@ -1,0 +1,50 @@
+focus_tree = {
+	id = ruthenia_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = RUT
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1600 }
+
+	focus = {
+		id = RUT_Ruthenia_Order
+		icon = GFX_focus_RAJ_indian_gentlemen_offcers
+		mutually_exclusive = {}
+		x = 5
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+}

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = DRR
+		owner = RUT
 		victory_points = {
 			6380 50 
 		}
@@ -18,7 +18,7 @@ state={
 			air_base = 10
 
 		}
-		add_core_of = DRR
+		add_core_of = RUT
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4
