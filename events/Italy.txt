@@ -21,6 +21,21 @@ country_event = {
 			country_event = { days = 1 id = news.22 }
 		}
 	}
+	option = {
+	
+		annex_country = { target = TUR }
+		add_named_threat = { threat = 2 name = ITA_albania_war_goal }
+		hidden_effect = {
+			country_event = { days = 1 id = news.500 }
+	}
+}
+	option = {
+		name = italy.1.c 
+		44 = { add_manpower = -1003000 }
+		hidden_effect = {
+			annex_country = { target = ALB }
+			}
+}
 }
 
 # Zog Rejects Ultimatum
