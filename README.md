@@ -1,5 +1,6 @@
 # My-Beautiful-Dark-Twisted-Fantasy
 rename the folder to mbdtf
+
 the rules are as follows:
 1)    You may not change the starting positions of any nations
 2)    You may only commit to the master branch during your turn
