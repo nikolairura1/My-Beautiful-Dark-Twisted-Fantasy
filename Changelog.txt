@@ -1,5 +1,6 @@
 
 Donald BD Trumpgashvili 5/7/2018
 	-Created events folder and added italy.txt
+	-added flavor options to zog accepting the demand. If he accepts you may now: Annex albania, annex Turkey instead, annex albania but also kill 1 million albanians.
 
 
