@@ -10,7 +10,7 @@ state={
 	history={
 		owner = NRM
 		victory_points = {
-			351 10 
+			11299 10 
 		}
 		buildings = {
 			infrastructure = 6
@@ -32,7 +32,7 @@ state={
 	}
 
 	provinces={
-		219 351 6399 9285 9314 9392 11270 11299 11332 11378 
+		351 9314 9392 11270 11299 11378 
 	}
 	manpower=2128860
 	buildings_max_level_factor=1.000

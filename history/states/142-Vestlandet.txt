@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = SCA
+		owner = SWE
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
@@ -33,7 +33,7 @@ state={
 		victory_points = {
 			122 1 
 		}
-		add_core_of = SCA
+		add_core_of = SWE
 	}
 
 	provinces={

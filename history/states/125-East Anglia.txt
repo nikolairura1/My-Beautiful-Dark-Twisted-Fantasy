@@ -6,7 +6,7 @@ state={
 	history={
 		owner = NEA
 		victory_points = {
-			11253 5 
+			322 5 
 		}
 		buildings = {
 			infrastructure = 7

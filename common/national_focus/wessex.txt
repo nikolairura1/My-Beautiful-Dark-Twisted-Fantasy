@@ -1,0 +1,58 @@
+focus_tree = {
+	id = wessex_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = NWS
+		}
+	}
+	
+	default = no
+
+	focus = {
+	    id = NWS_oak
+	    icon = GFX_goal_NWS_oak
+		x = 5
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		    add_political_power = 100
+		}
+	}
+
+	focus = {
+	    id = NWS_ash
+	    icon = GFX_goal_NWS_ash
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		    add_political_power = 100
+		}
+	}
+
+	focus = {
+	    id = NWS_thorn
+	    icon = GFX_goal_NWS_thorn
+		x = 9
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		    add_political_power = 100
+		}
+	}
