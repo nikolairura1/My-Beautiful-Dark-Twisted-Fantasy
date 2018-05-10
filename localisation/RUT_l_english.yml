@@ -8,3 +8,8 @@
   RUT_democratic_party_long:0 "Neo-Liberal Party"
   RUT_fascism_party:0 "SNMP"
   RUT_fascism_party_long:0 "Social National Movement Party"
+  RUT_renewal_party:0 "PLP"
+  RUT_renewal_party_long:0 "Progressive Labor Party"
+  FACTION_NAME_REN_1:0 "Labourist"
+  renewal:0 "Renewalism"
+  renewal_desc:0 "Progressive Regime"

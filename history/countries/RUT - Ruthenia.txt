@@ -12,11 +12,11 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 40
+			popularity = 30
 		}
 
 		fascism = {
-			popularity = 30
+			popularity = 5
 		}
 		
 		communism = {
@@ -26,12 +26,16 @@ set_politics = {
 		neutrality = { 
 			popularity = 20
 		}
+
+		renewal = {
+			popularity = 35
+		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = renewal
 	last_election = "1933.3.5"
-	election_frequency = 48
-	elections_allowed = no
+	election_frequency = 4
+	elections_allowed = yes
 }
 
 set_convoys = 5
@@ -41,7 +45,7 @@ create_country_leader = {
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_RUT_Ruthenian_Woman.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = labourism
 	traits = {
 		#
 	}
