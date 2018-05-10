@@ -62,16 +62,6 @@ bookmarks = {
 			focuses = {
 			}	
 		}
-		"EKN"={
-			history = "EKN_BLITZKRIEG_DESC"
-			ideology = fascism
-			ideas = {
-			EKN_legacy
-			EKN_incompetence
-			}
-			focuses = {
-			}	
-		}
 
 		"---"={
 			history = "OTHER_BLITZKRIEG_DESC"

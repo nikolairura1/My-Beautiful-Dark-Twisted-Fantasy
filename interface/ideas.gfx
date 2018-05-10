@@ -3630,7 +3630,12 @@ spriteTypes = {
 		name = "GFX_idea_ROM_iuliu_maniu"
 		texturefile = "gfx/interface/ideas/idea_generic_democratic_europe.dds"
 	}
-	##########
+	
+	spriteType = {
+		name = "GFX_idea_SWE_first_among_equals"
+		texturefile = "gfx/interface/ideas/SWE/first_among_equals.dds"
+	}
+		##########
 	################# Khanate ##########
 	##########
 	spriteType = {
@@ -3676,9 +3681,3 @@ spriteTypes = {
 	###########
 	####################################
 	############
-	
-	spriteType = {
-		name = "GFX_idea_SWE_first_among_equals"
-		texturefile = "gfx/interface/ideas/SWE/first_among_equals.dds"
-	}
-}
