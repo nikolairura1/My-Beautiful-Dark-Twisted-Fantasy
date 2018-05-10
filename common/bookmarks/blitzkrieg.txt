@@ -1,0 +1,143 @@
+bookmarks = {
+	bookmark = {
+		name = "BLITZKRIEG_NAME"
+		desc = "BLITZKRIEG_DESC"
+		date = 1939.8.14.12
+		picture = "GFX_select_date_1939"
+		default_country = "GER"
+	
+		"GER"={
+			history = "GER_BLITZKRIEG_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"USA"={
+			history = "USA_BLITZKRIEG_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"CHI"={
+			history = "CHI_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SPR"={
+			history = "SPR_BLITZKRIEG_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"CSA"={
+			history = "CSA_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+			}	
+			focuses = {
+			}		
+		}
+		"JAP"={
+			history = "JAP_BLITZKRIEG_DESC"
+			ideology = fascism
+			ideas = {
+			}	
+			focuses = {
+			}			
+		}
+		"IND"={
+			history = "IND_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+		"EKN"={
+			history = "EKN_BLITZKRIEG_DESC"
+			ideology = fascism
+			ideas = {
+			EKN_legacy
+			EKN_incompetence
+			}
+			focuses = {
+			}	
+		}
+
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+
+		# minors from DLC ####
+		"POL"={
+			minor = yes
+			history = "POL_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+			}
+		}
+		"SWE"={
+			minor = yes
+			history = "SWE_BLITZKRIEG_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"DEN"={
+			minor = yes
+			history = "DEN_BLITZKRIEG_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ARG"={
+			minor = yes
+			history = "ARG_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"COL"={
+			minor = yes
+			history = "COL_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"BYZ"={
+			minor = yes
+			history = "BYZ_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

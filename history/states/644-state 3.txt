@@ -6,9 +6,11 @@ state={
 	history={
 		owner = EKN
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			dockyard = 3
+
 			13204 = {
-				naval_base = 1
+				naval_base = 4
 
 			}
 
@@ -22,5 +24,5 @@ state={
 	}
 	manpower=68364
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=rural
 }
