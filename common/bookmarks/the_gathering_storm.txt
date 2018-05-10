@@ -31,13 +31,13 @@ bookmarks = {
 			focuses = {
 			}
 		}
-    "EKN"={
+    		"EKN"={
 		  history = "EKN_BLITZKRIEG_DESC"
 		  ideology = fascism
 			ideas = {
 			EKN_legacy
 			EKN_incompetence
-      EKN_famine_1
+     			 EKN_famine_1
 			}
 			focuses = {
 			}	
