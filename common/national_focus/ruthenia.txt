@@ -15,7 +15,7 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1600 }
 
 	focus = {
-		id = RUT_Ruthenia_Order
+		id = RUT_ruthenia_order
 		icon = GFX_focus_RAJ_indian_gentlemen_offcers
 		mutually_exclusive = {}
 		x = 5
@@ -45,6 +45,24 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 150
+		}
+	}
+	focus = {
+		id = RUT_old_guard
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = RUT_ruthenia_order }
+		available = {
+			is_puppet = no
+		}
+		x = -1
+		y = 1
+		relative_position_id = RUT_ruthenia_order
+		cost = 10
+		ai_will_do = {
+			factor = 3
+		}
+		
+		completion_reward = {
 		}
 	}
 }
