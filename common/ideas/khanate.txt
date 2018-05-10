@@ -1,0 +1,213 @@
+ideas = {
+
+	country = {
+		EKN_legacy = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_speed_factor = 0.1
+				cavalry_attack_factor = 0.35
+				cavalry_defence_factor = 0.35
+				enemy_partisan_effect = -0.3
+			}
+		}
+		EKN_incompetence = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_infantry_attack_factor = -0.4
+				army_infantry_defence_factor = -0.4
+				army_armor_attack_factor = -0.4
+				army_armor_defence_factor = -0.4
+				motorized_attack_factor = -0.4
+				motorized_defence_factor = -0.4
+				air_accidents_factor = 1
+			}
+		}
+		############## Famine ##################
+		EKN_famine_none = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+
+		EKN_famine_1 = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				conscription_factor = -0.5
+				attrition = 0.3
+			}
+		}
+
+		EKN_famine_2 = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.15
+				conscription_factor = -0.4
+				attrition = 0.25
+			}
+		}
+
+		EKN_famine_3 = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				conscription_factor = -0.3
+				attrition = 0.2
+			}
+		}
+
+		EKN_famine_4 = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				conscription_factor = -0.15
+				attrition = 0.1
+			}
+		}
+
+		EKN_famine_5 = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.1
+				attrition = -0.05
+			}
+		}
+
+		###########################################
+
+		EKN_chinese_tools_construction = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = -0.1
+			}
+		}
+
+		EKN_chinese_tools_production = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				industrial_capacity_factory = 0.1
+			}
+		}
+
+		EKN_stolen_scientists = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_time_factor = -0.07
+			}
+		}
+
+	}
+}

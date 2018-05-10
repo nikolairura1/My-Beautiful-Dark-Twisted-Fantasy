@@ -1,0 +1,527 @@
+﻿division_template = {
+	name = "Cavalry Horde"			# Cavalry Division
+
+	division_names_group = MON_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	##### Mongol Ardyn Armiin #####
+	division = {
+		#name = "1-r Cavalry Horde"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		#name = "2-p Cavalry Horde"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "3-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "4-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 23
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 24
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 25
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 27
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 28
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 29
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 30
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 31
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 32
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 33
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 34
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 35
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 36
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 37
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 38
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 39
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 40
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 41
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4801
+		division_template = "Cavalry Horde"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	navy = {	
+	name = "Sea Horde"
+	base = 12518
+	location = 12518 
+	ship = { name = "Sea Horse 1" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Sea Horse 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Sea Horse 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Sea Horse 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Sea Horse 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Sea Horse 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Sea Horse 7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Sea Horse 8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Sea Horse 9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Sea Horse 10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Sea Horse 11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Sea Horse 12" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Sea Horse 13" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Sea Horse 14" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Sea Horse 15" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Sea Horse 16" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Sea Horse 17" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Sea Horse 18" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Sea Leech 1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Sea Leech 2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Sea Leech 3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Sea Leech 4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = EKN } } }
+	ship = { name = "Khan`s punishing hand" definition = battleship equipment = { battleship_1 = { amount = 1 owner = EKN } } }
+	}
+}
+
+
+
+
+##### No notable air force (only about 6 aircraft in 1936) #####
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "EKN"
+		}
+		requested_factories = 5
+		progress = 0.20
+		efficiency = 100
+	}
+}

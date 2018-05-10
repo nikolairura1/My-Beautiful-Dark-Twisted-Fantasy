@@ -1786,6 +1786,10 @@
  NVZ_neutrality_ADJ:0 "Venezian"
  NVZ_communism_ADJ:0 "Venezian"
  
+ INV_fascism:0 "Martian Horde"
+ INV_fascism_DEF:0 "Martian Horde"
+ INV_fascism_ADJ:0 "Martian"
+
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_DEMOCRATIC_2:0 "The $CONTINENT_ADJ$ Entente"
  FACTION_NAME_DEMOCRATIC_3:0 "The $LEADER_COUNTRY_ADJ$ Concordat"

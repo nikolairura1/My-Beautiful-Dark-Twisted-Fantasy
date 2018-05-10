@@ -1,0 +1,98 @@
+﻿add_namespace = khanate
+
+#Our past
+country_event = {
+	id = khanate.1
+	title = khanate.1.t
+	desc = khanate.1.d
+	picture = GFX_report_event_chinese_army_training
+
+	is_triggered_only = yes
+
+	option = {
+		name = khanate.1.a
+		set_capital = 330
+		add_stability = 0.05
+		add_building_construction = {
+			type = bunker
+			level = 2
+			province = 4801
+			instant_build = yes
+		}
+		add_building_construction = {
+			type = bunker
+			level = 2
+			province = 7752
+			instant_build = yes
+		}
+		add_building_construction = {
+			type = bunker
+			level = 2
+			province = 4732
+			instant_build = yes
+		}
+		add_building_construction = {
+			type = bunker
+			level = 2
+			province = 7749
+			instant_build = yes
+		}
+		add_building_construction = {
+			type = bunker
+			level = 2
+			province = 7781
+			instant_build = yes
+		}
+		set_country_flag = capitalintact
+		country_event = { id = khanate.2}
+	}
+
+	option = {
+		name = khanate.1.b
+		set_capital = 576
+		add_stability = -0.05
+		set_country_flag = capitalchanged
+		country_event = { id = khanate.2}
+	}
+}
+
+country_event = {
+	id = khanate.2
+	title = khanate.2.t
+	desc = khanate.2.d
+	picture = GFX_report_event_airplane_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = khanate.2.a
+		add_ideas = EKN_chinese_tools_production
+		country_event = { id = khanate.3}
+	}
+
+	option = {
+		name = khanate.2.b
+		add_ideas = EKN_chinese_tools_construction
+		country_event = { id = khanate.3}
+	}
+}
+
+country_event = {
+	id = khanate.3
+	title = khanate.3.t
+	desc = khanate.3.d
+	picture = GFX_report_event_generic_research_lab
+
+	is_triggered_only = yes
+
+	option = {
+		name = khanate.3.a
+		add_ideas = EKN_stolen_scientists
+	}
+
+	option = {
+		name = khanate.3.b
+		add_war_support = 0.1
+		add_stability = 0.1
+	}
+}

@@ -12,7 +12,8 @@ state={
 	history={
 		owner = EKN
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			industrial_complex = 1
 		}
 		add_core_of = EKN
 	}
