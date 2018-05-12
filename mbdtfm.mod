@@ -1,5 +1,5 @@
 ﻿name="My Beautiful Dark Twisted Fantasy"
-path="mod/mbdtf/"
+path="mod/My-Beautiful-Dark-Twisted-Fantasy/"
 tags={
 	"Alternative History"
 }
