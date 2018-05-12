@@ -6,6 +6,15 @@ set_technology = {
 	infantry_weapons = 1
 	tech_support = 1
 	tech_recon = 1
+	gw_artillery = 1
+}
+
+add_ideas = {
+	NWS_divided_kingdom
+	NWS_mercian_separatism
+	NWS_sussex_separatism
+	NWS_cornish_separatism
+	NWS_northumbrian_separatism
 }
 
 set_politics = {
@@ -34,10 +43,13 @@ set_politics = {
 	elections_allowed = no
 }
 
-set_convoys = 5
+set_convoys = 100
+set_research_slots = 3
+set_stability = 0.75 
+set_war_support = 0.5
 
 create_country_leader = {
-	name = "Resurrected Alfred the Great"
+	name = "Alfred"
 	picture = "Portrait_Wessex_Alfred.dds"
 	ideology = despotism
 	traits = {

@@ -28,6 +28,100 @@ focus_tree = {
 	}
 
 	focus = {
+	    id = NWS_pacify_cornwall
+	    icon = GFX_goal_NWS_pacify_cornwall
+	    prerequisite = {
+	        focus = NWS_oak
+	    }
+		x = 4
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		    remove_ideas = NWS_cornish_separatism
+		}
+	}
+
+	focus = {
+	    id = NWS_pacify_sussex
+	    icon = GFX_goal_NWS_pacify_sussex
+	    prerequisite = {
+	        focus = NWS_pacify_cornwall
+	    }
+		x = 4
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		    remove_ideas = NWS_sussex_separatism
+		}
+	}
+
+	focus = {
+	    id = NWS_pacify_northumbria
+	    icon = GFX_goal_NWS_pacify_northumbria
+	    prerequisite = {
+	        focus = NWS_pacify_sussex
+	    }
+		x = 4
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		    remove_ideas = NWS_northumbrian_separatism
+		}
+	}
+
+	focus = {
+	    id = NWS_pacify_mercia
+	    icon = GFX_goal_NWS_pacify_mercia
+	    prerequisite = {
+	        focus = NWS_pacify_northumbria
+	    }
+		x = 4
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		    remove_ideas = NWS_mercian_separatism
+		}
+	}
+
+	focus = {
+	    id = NWS_cement_authority
+	    icon = GFX_goal_NWS_cement_authority
+	    prerequisite = {
+	        focus = NWS_pacify_mercia
+	    }
+	    x = 4
+	 	y = 5
+	 	cost = 10
+	 	ai_will_do = {
+	 		factor = 1
+	 	}
+		
+	 	completion_reward = {
+	 	    add_political_power = 50
+	 	    swap_ideas = {
+	 	        remove_idea = NWS_divided_kingdom
+	 	        add_idea = NWS_authority
+	 	    }
+	 	}
+	}
+
+	focus = {
 	    id = NWS_ash
 	    icon = GFX_goal_NWS_ash
 		x = 1
@@ -38,7 +132,50 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-		    add_political_power = 100
+		    add_political_power = 50
+		    set_rule = { can_create_factions = yes }
+		}
+	}
+
+	focus = {
+	    id = NWS_united_england
+	    icon = GFX_goal_NWS_united_england
+	    prerequisite = {
+	        focus = NWS_ash
+	    }
+	    mutually_exclusive = {
+	        focus = NWS_english_confederation
+	    }
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		    
+		}
+	}
+
+	focus = {
+	    id = NWS_english_confederation
+	    icon = GFX_goal_NWS_english_confederation
+	    prerequisite = {
+	        focus = NWS_ash
+	    }
+	    mutually_exclusive = {
+	        focus = NWS_united_england
+	    }
+		x = 2
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		    
 		}
 	}
 
@@ -53,6 +190,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-		    add_political_power = 100
+		    add_political_power = 50
+		    army_experience = 25
 		}
 	}

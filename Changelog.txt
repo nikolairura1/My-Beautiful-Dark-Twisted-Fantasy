@@ -7,3 +7,16 @@ The latest changes should be written above the previous changes but below here
 
 Divexz 05/06/18
 	-Set up the inital starting posistions of all nations
+
+RangerNCR 05/10/18
+	-Made a focus tree for khanate
+	-Made events for khanate
+	-Made custom goals\icons for khanate
+	-Tweaked states of Khanate
+	-Made a Khanate`s fleet
+	-Edited a bookmark(incomplete)
+	-Tweaked all the EKN history files
+	-Made custom generals
+	-Added INV - Martian Horde for future events in Khanate
+	-Preety much the whole commit is a development of Khanate
+	-Added necessary files and loc in the folder

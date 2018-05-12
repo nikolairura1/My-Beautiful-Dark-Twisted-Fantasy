@@ -1,0 +1,92 @@
+#Add to scripted triggers if more levels of hyper inflation is added
+EKN_famine_clear_all = {
+	remove_ideas = {
+		EKN_famine_1
+		EKN_famine_2
+		EKN_famine_3
+		EKN_famine_4
+		EKN_famine_5
+	}
+}
+
+#Important to put HIGHEST first
+EKN_famine_level_up = {
+	# level 5 not relevant. Cannot go above.
+	custom_effect_tooltip = EKN_famine_up_tt
+	if = {
+		limit = { has_idea = EKN_famine_4 }
+		swap_ideas = {
+			remove_idea = EKN_famine_4
+			add_idea = EKN_famine_5
+		}
+	}
+	else_if = {
+		limit = { has_idea = EKN_famine_3 }
+		swap_ideas = {
+			remove_idea = EKN_famine_3
+			add_idea = EKN_famine_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = EKN_famine_2 }
+		swap_ideas = {
+			remove_idea = EKN_famine_2
+			add_idea = EKN_famine_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = EKN_famine_1 }
+		swap_ideas = {
+			remove_idea = EKN_famine_1
+			add_idea = EKN_famine_2
+		}		
+	}
+	else_if = {
+		limit = { NOT = { has_idea = EKN_famine_1 } }
+		add_ideas = EKN_famine_1
+	}
+}
+
+#Important to put LOWEST first
+EKN_famine_level_down = {
+custom_effect_tooltip = EKN_famine_down_tt
+	if = {
+		limit = { has_idea = EKN_famine_1 }
+		#Makes the tooltip clearer if player looks at the effect early in the game
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = EKN_famine_1
+				add_idea = EKN_famine_none
+			}
+		}
+		hidden_effect = { remove_ideas = EKN_famine_1 }
+	}
+	if = {
+		limit = { has_idea = EKN_famine_2 }
+		swap_ideas = {
+			remove_idea = EKN_famine_2
+			add_idea = EKN_famine_1
+		}
+	}
+	if = {
+		limit = { has_idea = EKN_famine_3 }
+		swap_ideas = {
+			remove_idea = EKN_famine_3
+			add_idea = EKN_famine_2
+		}
+	}
+	if = {
+		limit = { has_idea = EKN_famine_4 }
+		swap_ideas = {
+			remove_idea = EKN_famine_4
+			add_idea = EKN_famine_3
+		}
+	}
+	if = {
+		limit = { has_idea = EKN_famine_5 }
+		swap_ideas = {
+			remove_idea = EKN_famine_5
+			add_idea = EKN_famine_4
+		}
+	}
+}

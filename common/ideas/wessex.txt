@@ -1,0 +1,123 @@
+ideas = {
+
+	country = {
+		NWS_authority = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = NWS_authority
+			
+			modifier = {
+				stability_factor = 0.10
+			}
+		}
+
+		NWS_divided_kingdom = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = NWS_divided_kingdom
+			
+			modifier = {
+				stability_factor = -0.10
+			}
+		}
+
+		NWS_mercian_separatism = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = NWS_mercian_separatism
+			
+			modifier = {
+				conscription_factor = -0.15
+				stability_factor = -0.10
+			}
+		}
+
+		NWS_sussex_separatism = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = NWS_sussex_separatism
+			
+			modifier = {
+				conscription_factor = -0.05
+				stability_factor = -0.05
+			}
+		}
+
+		NWS_cornish_separatism = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = NWS_cornish_separatism
+			
+			modifier = {
+				conscription_factor = -0.05
+				stability_factor = -0.05
+			}
+		}
+
+		NWS_northumbrian_separatism = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = NWS_northumbrian_separatism
+			
+			modifier = {
+				conscription_factor = -0.05
+				stability_factor = -0.05
+			}
+		}
+
+	}
+}
