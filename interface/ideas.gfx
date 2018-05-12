@@ -3631,16 +3631,53 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_democratic_europe.dds"
 	}
 	
-	
-	
 	spriteType = {
 		name = "GFX_idea_SWE_first_among_equals"
 		texturefile = "gfx/interface/ideas/SWE/first_among_equals.dds"
 	}
-	
-	
-	
-	
-	
-	
-}
+		##########
+	################# Khanate ##########
+	##########
+	spriteType = {
+		name = "GFX_idea_EKN_legacy"
+		texturefile = "gfx/interface/ideas/idea_generic_motorized_equipment_manufacturer_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_incompetence"
+		texturefile = "gfx/interface/ideas/EKN/incompetence.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_famine_1"
+		texturefile = "gfx/interface/ideas/EKN/famine_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_famine_2"
+		texturefile = "gfx/interface/ideas/EKN/famine_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_famine_3"
+		texturefile = "gfx/interface/ideas/EKN/famine_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_famine_4"
+		texturefile = "gfx/interface/ideas/EKN/famine_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_famine_5"
+		texturefile = "gfx/interface/ideas/EKN/famine_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_chinese_tools_construction"
+		texturefile = "gfx/interface/ideas/generic_production_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_chinese_tools_production"
+		texturefile = "gfx/interface/ideas/generic_production_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_stolen_scientists"
+		texturefile = "gfx/interface/ideas/generic_research_bonus.dds"
+	}
+	###########
+	####################################
+	############

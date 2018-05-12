@@ -1,0 +1,1190 @@
+focus_tree = {
+	id = khanate_focus
+	
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = EKN
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+
+	focus = {
+		id = EKN_our_past
+		icon = gfx
+		cost = 1
+		available_if_capitulated = yes
+		x = 7
+		y = 0
+		completion_reward = {
+			EKN = {
+				country_event = {id = khanate.1 }
+			}
+		}
+	}
+
+	focus = {
+		id = EKN_abandon_west
+		icon = GFX_goal_anschluss
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_our_past
+		}
+		mutually_exclusive = {
+			focus = EKN_prepare_invasion
+		}
+		x = 6
+		y = 1
+		completion_reward = {
+			set_cosmetic_tag = EKN_AS
+			add_stability = -0.1
+			diplomatic_relation = { country = NOV relation = non_aggression_pact }
+			diplomatic_relation = { country = DRR relation = non_aggression_pact }
+		}
+	}
+
+	focus = {
+		id = EKN_look_south
+		icon = GFX_focus_chi_one_china_policy
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_abandon_west
+		}
+		x = 3
+		y = 2
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_fortify_capital
+		icon = GFX_focus_generic_self_management
+		cost = 10
+		available_if_capitulated = yes
+		available = {has_country_flag = capitalintact}
+		prerequisite = {
+			focus = EKN_look_south
+		}
+		mutually_exclusive = {
+			focus = EKN_expand_railways
+		}
+		x = 4
+		y = 3
+		completion_reward = {
+			add_building_construction = {
+			type = bunker
+			level = 6
+			province = 4901
+			instant_build = yes
+			}
+			add_building_construction = {
+			type = bunker
+			level = 4
+			province = 4732
+			instant_build = yes
+			}
+			add_building_construction = {
+			type = bunker
+			level = 4
+			province = 7752
+			instant_build = yes
+			}
+			add_building_construction = {
+			type = bunker
+			level = 4
+			province = 12605
+			instant_build = yes
+			}
+			add_building_construction = {
+			type = bunker
+			level = 4
+			province = 4862
+			instant_build = yes
+			}
+			add_building_construction = {
+			type = bunker
+			level = 4
+			province = 10554
+			instant_build = yes
+			}
+		}
+	}
+
+	focus = {
+		id = EKN_expand_railways
+		icon = GFX_focus_generic_rubber
+		cost = 10
+		available_if_capitulated = yes
+		available = {has_country_flag = capitalmoved}
+		prerequisite = {
+			focus = EKN_look_south
+		}
+		mutually_exclusive = {
+			focus = EKN_fortify_capital
+		}
+		x = 2
+		y = 3
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_prepare_invasion
+		icon = GFX_focus_generic_provoke_border_clashes
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_our_past
+		}
+		mutually_exclusive = {
+			focus = EKN_abandon_west
+		}
+		x = 8
+		y = 1
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+
+	focus = {
+		id = EKN_study_urals
+		icon = GFX_focus_urals
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_prepare_invasion
+		}
+		x = 11
+		y = 2
+		completion_reward = {
+			army_experience = 30
+		}
+	}
+
+	focus = {
+		id = EKN_mountain_strategy
+		icon = GFX_goal_generic_cavalry
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_study_urals
+		}
+		mutually_exclusive = {
+			focus = EKN_mountaneers
+		}
+		x = 12
+		y = 3
+		completion_reward = {
+			add_stability = 0.05
+			set_technology = { EKN_mountain_horses = 1 }
+		}
+	}
+
+	focus = {
+		id = EKN_mountaneers
+		icon = GFX_goal_generic_special_forces
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_study_urals
+		}
+		mutually_exclusive = {
+			focus = EKN_mountain_strategy
+		}
+		x = 10
+		y = 3
+		completion_reward = {
+			add_stability = -0.05
+			set_technology = { tech_mountaineers = 1}
+			division_template = {
+				name = "Mountain Troopers"
+				priority = 2
+		
+				regiments = {
+					mountaineers = { x = 0 y = 0 }
+					mountaineers = { x = 0 y = 1 }
+					mountaineers = { x = 0 y = 2 }
+				
+		    	   	mountaineers = { x = 1 y = 0 }
+					mountaineers = { x = 1 y = 1 }
+					mountaineers = { x = 1 y = 2 }
+				}
+				support = {
+					recon = { x = 0 y = 0 }
+					rtillery = { x = 0 y = 1 }
+					engineer = { x = 0 y = 1 }
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 653 }
+				limit = { ROOT = { has_full_control_of_state = PREV } }
+				create_unit = {
+					division = "name = \"Mountain Troopers\" division_template = \"Mountain Troopers\" start_experience_factor = 1.0" 
+					owner = EKN
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 653 }
+				limit = { ROOT = { has_full_control_of_state = PREV } }
+				create_unit = {
+					division = "name = \"Mountain Troopers\" division_template = \"Mountain Troopers\" start_experience_factor = 1.0" 
+					owner = EKN
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 653 }
+				limit = { ROOT = { has_full_control_of_state = PREV } }
+				create_unit = {
+					division = "name = \"Mountain Troopers\" division_template = \"Mountain Troopers\" start_experience_factor = 1.0" 
+					owner = EKN
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 653 }
+				limit = { ROOT = { has_full_control_of_state = PREV } }
+				create_unit = {
+					division = "name = \"Mountain Troopers\" division_template = \"Mountain Troopers\" start_experience_factor = 1.0" 
+					owner = EKN
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 653 }
+				limit = { ROOT = { has_full_control_of_state = PREV } }
+				create_unit = {
+					division = "name = \"Mountain Troopers\" division_template = \"Mountain Troopers\" start_experience_factor = 1.0" 
+					owner = EKN
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 653 }
+				limit = { ROOT = { has_full_control_of_state = PREV } }
+				create_unit = {
+					division = "name = \"Mountain Troopers\" division_template = \"Mountain Troopers\" start_experience_factor = 1.0" 
+					owner = EKN
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 653 }
+				limit = { ROOT = { has_full_control_of_state = PREV } }
+				create_unit = {
+					division = "name = \"Mountain Troopers\" division_template = \"Mountain Troopers\" start_experience_factor = 1.0" 
+					owner = EKN
+				}
+			}
+
+		}
+	}
+
+	focus = {
+		id = EKN_conscript_people_west
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_mountaneers
+			focus = EKN_mountain_strategy
+		}
+		x = 11
+		y = 4
+		completion_reward = {
+			add_ideas = militarism_focus
+		}
+	}
+
+	focus = {
+		id = EKN_conscript_people_south
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_expand_railways
+			focus = EKN_fortify_capital
+		}
+		x = 3
+		y = 4
+		completion_reward = {
+			add_ideas = militarism_focus
+		}
+	}
+
+	focus = {
+		id = EKN_conscript_workers_south
+		icon = GFX_focus_YUG_pan_slavic_congress
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {focus = EKN_conscript_people_south}
+		prerequisite = {focus = EKN_sea_blockade}
+		x = 5
+		y = 5
+		completion_reward = {
+			add_ideas = militarism_focus
+		}
+	}
+
+	focus = {
+		id = EKN_conscript_workers_west
+		icon = GFX_focus_CZE_german_puppet
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {focus = EKN_conscript_people_west}
+		prerequisite = {focus = EKN_sea_blockade}
+		
+		x = 9
+		y = 5
+		completion_reward = {
+			add_ideas = militarism_focus
+		}
+	}
+
+	focus = {
+		id = EKN_placeholder_south
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_conscript_people_south
+		}
+		x = 3
+		y = 6
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_placeholder_west
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_conscript_people_west
+		}
+		x = 11
+		y = 6
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_east_threat
+		icon = GFX_focus_mosley_danger
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_our_past
+		}
+		x = 7
+		y = 2
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_anti_mosley
+		icon = GFX_focus_oppose_mosley
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_east_threat
+		}
+		x = 7
+		y = 3
+		completion_reward = {
+			add_ideas = counter_mousley
+		}
+	}
+
+	focus = {
+		id = EKN_sea_blockade
+		icon = GFX_focus_mosley_blockade
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_anti_mosley
+		}
+		x = 7
+		y = 4
+		completion_reward = {
+			add_ideas = sea_blockade
+		}
+	}
+
+	focus = {
+		id = EKN_mosley_question
+		icon = GFX_goal_generic_cavalry
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_sea_blockade
+		}
+		x = 7
+		y = 5
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_strike_at_mosley
+		icon = GFX_goal_generic_cavalry
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_mosley_question
+		}
+		mutually_exclusive = {
+			focus = EKN_ultimatum_to_mosley
+		}
+		x = 6
+		y = 6
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_ultimatum_to_mosley
+		icon = GFX_goal_generic_cavalry
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_mosley_question
+		}
+		mutually_exclusive = {
+			focus = EKN_strike_at_mosley
+		}
+		x = 8
+		y = 6
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_great_hunt
+		icon = GFX_goal_generic_wolf_pack
+		cost = 10
+		available_if_capitulated = yes
+		x = 18
+		y = 0
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = { bonus = 0.4 uses = 1 category = land_doctrine }
+			EKN_famine_level_up = yes
+		}
+	}
+
+	focus = {
+		id = EKN_study_ural_border
+		icon = GFX_goal_generic_position_armies
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_great_hunt
+		}
+		x = 16
+		y = 1
+		completion_reward = {
+			add_tech_bonus = { bonus = 0.5 uses = 1 category = land_doctrine }
+		}
+	}
+
+	focus = {
+		id = EKN_host_great_feast
+		icon = GFX_focus_rom_parties_end
+		cost = 20
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_study_ural_border
+		}
+		x = 16
+		y = 2
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = { bonus = 0.6 uses = 2 category = land_doctrine }
+			EKN_famine_level_up = yes
+		}
+	}
+
+	focus = {
+		id = EKN_study_stolen_guns
+		icon = GFX_focus_study_guns
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_great_hunt
+		}
+		x = 20
+		y = 1
+		completion_reward = {
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 500 producer = CHI }
+			add_tech_bonus = { bonus = 0.3 uses = 1 category = infantry_weapons }
+		}
+	}
+
+	focus = {
+		id = EKN_steal_more_guns
+		icon = GFX_focus_steal_guns
+		cost = 20
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_study_stolen_guns
+		}
+		x = 20
+		y = 2
+		completion_reward = {
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 1500 producer = CHI }
+			add_tech_bonus = { bonus = 0.6 uses = 2 category = infantry_weapons }
+		}
+	}
+
+	focus = {
+		id = EKN_question_our_competence
+		icon = GFX
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_steal_more_guns
+			focus = EKN_host_great_feast
+		}
+		x = 18
+		y = 2
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_start_reforms
+		icon = GFX_focus_chi_army_reform
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_question_our_competence
+		}
+		mutually_exclusive = {
+			focus = EKN_deny_reforms
+		}
+		x = 17
+		y = 3
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_deny_reforms
+		icon = GFX_focus_generic_air_defense
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_question_our_competence
+		}
+		mutually_exclusive = {
+			focus = EKN_start_reforms
+		}
+		x = 19
+		y = 3
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_request_chinese_tanks
+		icon = GFX_focus_generic_tank_production
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_start_reforms
+		}
+		mutually_exclusive = {
+			focus = EKN_mongolian_tanks
+		}
+		x = 16
+		y = 4
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_mongolian_tanks
+		icon = GFX_focus_mongolian_tanks
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_start_reforms
+		}
+		mutually_exclusive = {
+			focus = EKN_request_chinese_tanks
+		}
+		x = 18
+		y = 4
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_enforce_legacy
+		icon = GFX_focus_enforce_legacy
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_deny_reforms
+		}
+		x = 19
+		y = 5
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_think_about_planes
+		icon = GFX_goal_continuous_air_production
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_request_chinese_tanks
+			focus = EKN_mongolian_tanks
+		}
+		x = 17
+		y = 5
+		completion_reward = {
+			air_experience = 40
+		}
+	}
+
+	focus = {
+		id = EKN_import_planes
+		icon = GFX_goal_generic_air_fighter2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_think_about_planes
+		}
+		mutually_exclusive = {
+			focus = EKN_invent_planes
+		}
+		x = 16
+		y = 6
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_invent_planes
+		icon = GFX_focus_mongolian_planes
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_think_about_planes
+		}
+		mutually_exclusive = {
+			focus = EKN_import_planes
+		}
+		x = 18
+		y = 6
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_modify_siege_equipment
+		icon = GFX_goal_generic_occupy_start_war
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_great_hunt
+		}
+		x = 18
+		y = 1
+		completion_reward = {
+			add_tech_bonus = { bonus = 0.5 uses = 1 category = artillery }
+		}
+	}
+
+	focus = {
+		id = EKN_root_out_thinking
+		icon = GFX_goal_continuous_restrict_freedom
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_enforce_legacy
+		}
+		x = 19
+		y = 7
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_finish_army_shaping
+		icon = GFX_focus_finish_army
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_root_out_thinking
+			focus = EKN_invent_planes
+			focus = EKN_import_planes
+		}
+		x = 18
+		y = 8
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_read_the_capital
+		icon = GFX_focus_read_the_capital
+		cost = 10
+		available_if_capitulated = yes
+		x = 25
+		y = 0
+		completion_reward = {
+			add_tech_bonus = { bonus = 0.6 uses = 1 category = industry }
+		}
+	}
+
+	focus = {
+		id = EKN_build_horse_yards
+		icon = GFX_focus_read_the_capital
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_read_the_capital
+		}
+		mutually_exclusive = {
+			focus = EKN_horse_workers
+		}
+		x = 23
+		y = 1
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					industrial_complex = 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		random_owned_controlled_state = {
+				limit = {
+					industrial_complex = 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		random_owned_controlled_state = {
+				limit = {
+					industrial_complex = 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = EKN_expand_local_mines
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_read_the_capital
+		}
+		mutually_exclusive = {
+			focus = EKN_build_horse_yards
+		}
+		x = 27
+		y = 1
+		completion_reward = {
+			add_resource = { type = steel amount = 6 state = 564 }
+			add_resource = { type = tungsten amount = 6 state = 566 }
+		}
+	}
+
+	focus = {
+		id = EKN_horse_workers
+		icon = GFX_focus_read_the_capital
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_read_the_capital
+		}
+		x = 25
+		y = 1
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					arms_factory = 0
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		random_owned_controlled_state = {
+				limit = {
+					arms_factory = 0
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		random_owned_controlled_state = {
+				limit = {
+					arms_factory = 0
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = EKN_make_roads_north
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_horse_workers
+			focus = EKN_build_horse_yards
+			focus = EKN_expand_local_mines
+		}
+		mutually_exclusive = {
+			focus = EKN_make_roads_south
+		}
+		x = 24
+		y = 2
+		completion_reward = {
+			add_tech_bonus = { bonus = 0.2 uses = 4 category = industry }
+			576 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+			577 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+						}
+					}
+				}
+			516 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			575 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+			644 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 4
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = EKN_make_roads_south
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_horse_workers
+			focus = EKN_build_horse_yards
+			focus = EKN_expand_local_mines
+		}
+		mutually_exclusive = {
+			focus = EKN_make_roads_north
+		}
+		x = 26
+		y = 2
+		completion_reward = {
+			add_tech_bonus = { bonus = 0.2 uses = 4 category = industry }
+			330 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+			563 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+						}
+					}
+				}
+			564 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+			561 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+			562 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 4
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = EKN_grow_food
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_build_horse_yards
+		}
+		x = 22
+		y = 3
+		completion_reward = {
+			EKN_famine_level_up = yes
+		}
+	}
+
+	focus = {
+		id = EKN_prepare_army
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_horse_workers
+		}
+		x = 25
+		y = 3
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_black_goo
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_expand_local_mines
+		}
+		x = 28
+		y = 2
+		completion_reward = {
+			add_resource = { type = oil amount = 26 state = 516 }
+			516 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 2`
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = EKN_oil_army
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_black_goo
+		}
+		prerequisite = {
+			focus = EKN_prepare_army
+		}
+		mutually_exclusive = {
+			focus = EKN_oil_agriculture
+		}
+		x = 27
+		y = 4
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_oil_agriculture
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_black_goo
+		}
+		prerequisite = {
+			focus = EKN_grow_food
+		}
+		mutually_exclusive = {
+			focus = EKN_oil_army
+		}
+		x = 23
+		y = 4
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_green_glowy_stuff
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_black_goo
+		}
+		x = 28
+		y = 3
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_feed_horses_with_it
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_green_glowy_stuff
+		}
+		x = 28
+		y = 5
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = EKN_take_look_at_fleet
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10
+		available_if_capitulated = yes
+		x = 34
+		y = 0
+		completion_reward = {
+			navy_experience = 60
+		}
+	}
+}
