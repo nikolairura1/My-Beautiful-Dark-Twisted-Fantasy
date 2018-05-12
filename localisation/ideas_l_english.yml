@@ -2526,8 +2526,23 @@
  MAN_western_refinery:0 "Western Refinery"
  MAN_showa_steel_works:0 "Anshan Steel Works"
  CHI_illegal_regime:0 "Illegal Regime"
-
-
+ 
+####### Khan`s property ########
+ EKN_legacy:0 "Legacy of Genghis Khan"
+ EKN_legacy_desc:0 "Although our great Khan died centuries ago, his legacy is still alive in people`s hearts, but can it be apllied to the modern times?"
+ EKN_incompetence:0 "Incompetence of the army"
+ EKN_incompetence_desc:0 "Our army has been using horses for centuries, thus making it incompetent in using any other tactics"
+ EKN_famine_5:0 "Famine conquered"
+ EKN_famine_4:0 "Stagnating famine"
+ EKN_famine_3:0 "Dropping famine"
+ EKN_famine_2:0 "Terrible famine"
+ EKN_famine_1:0 "Ravaging famine"
+ EKN_famine_up_tt:0 "§GReduces§! famine:\n"
+ EKN_famine_down_tt:0 "§RIncreaces§! famine:\n"
+ EKN_chinese_tools_construction:0 "Tools went into construction"
+ EKN_chinese_tools_production:0 "Tools went into production"
+ EKN_stolen_scientists:0 "Kidnapped scientists"
+################################
  
  SWE_first_among_equals:0 "First Among Equals"
  SWE_first_among_equals_desc:0 "Although Sweden is the leading partner of the union between them and Norway, Norway has it's own parliament, army, navy, and airforce, many members of which do not speak Swedish, causing communication issues in the governments and militaries of Sweden-Norway."
