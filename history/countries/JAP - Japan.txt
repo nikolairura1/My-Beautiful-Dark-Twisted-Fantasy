@@ -90,9 +90,9 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Japanese Diet"
-	desc = "POLITICS_Hirohito_DESC"
-	picture = ""
+	name = "National Diet"
+	desc = "POLITICS_DIET_DESC"
+	picture = "JAP_Diet.png"
 	expire = "1989.1.1"
 	ideology = oligarchism
 	traits = {
