@@ -1,0 +1,106 @@
+﻿division_template = {
+
+	name = "Bermudan Infantry"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+	}
+	
+}
+
+units = {
+
+	division= {	
+		name = "1st Bermudan Guard Regiment" 
+		location = 13010
+		division_template = "Bermudan Infantry"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2nd Bermudan Guard Regiment" 
+		location = 13010
+		division_template = "Bermudan Infantry"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3rd Bermudan Guard Regiment" 
+		location = 13010
+		division_template = "Bermudan Infantry"
+		start_experience_factor = 0.3
+	}
+	
+	navy = {				
+		name = "BNA Naval Force"			
+		base = 13010
+		location = 13010
+		ship = { name = "BMV Bermuda" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Dominance" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Sacrifice" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Home" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Beacon" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Junkyard" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Cannonball" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Oakwood" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Vigilant" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV London" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV LCI" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV LCII" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV LCIII" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV LCIV" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV LCV" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV LCVI" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV LCVII" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV LCVIII" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV LCIX" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV LCX" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV LCXI" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV LCXII" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV LCXIII" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV LCXIV" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV LCXV" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV LCXVI" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Floater" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Polar Bear" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Hotguard" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Kingdom" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Rainpuddle" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Dry Gin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Element" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Splendor" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Main Street" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Dover" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Florida" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Clipper" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Mango" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Bullseye" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Smirk" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Hillside" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Attila" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Canterbury" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Caesar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Boxcutter" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Poetry" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Uniform" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Rascal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Mission" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Overlord" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Malta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Gregory" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Assault" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Yorkshire" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Steamboat" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Jug" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Benchmark" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Hope" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Tropical" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Widow" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Sleeper" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Lighthouse" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Justitia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Endurance" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+		ship = { name = "BMV Crow" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BNA } } }
+	}				
+	
+}
