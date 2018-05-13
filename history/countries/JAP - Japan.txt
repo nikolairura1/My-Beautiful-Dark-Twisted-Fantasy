@@ -1,6 +1,6 @@
 ﻿capital = 282
 
-oob = "JAP_1936"
+oob = "WLT_1936"
 
 set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
 set_war_support = 0.8
@@ -95,6 +95,16 @@ create_country_leader = {
 	picture = "JAP_Diet.png"
 	expire = "1989.1.1"
 	ideology = oligarchism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Walt Disney"
+	desc = "POLITICS_DIET_DESC"
+	picture = "JAP_Walt_Disney.png"
+	expire = "1989.1.1"
+	ideology = market_disneyism
 	traits = {
 	}
 }
