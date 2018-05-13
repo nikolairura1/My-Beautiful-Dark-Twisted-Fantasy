@@ -386,7 +386,9 @@ focus_tree = {
 		x = 7
 		y = 2
 		completion_reward = {
-			
+			EKN = {
+				country_event = {id = khanate.4 }
+			}
 		}
 	}
 
@@ -401,7 +403,7 @@ focus_tree = {
 		x = 7
 		y = 3
 		completion_reward = {
-			add_ideas = counter_mousley
+			add_ideas = EKN_counter_mosley
 		}
 	}
 
@@ -416,7 +418,7 @@ focus_tree = {
 		x = 7
 		y = 4
 		completion_reward = {
-			add_ideas = sea_blockade
+			add_ideas = EKN_sea_blockade
 		}
 	}
 
@@ -765,7 +767,7 @@ focus_tree = {
 
 	focus = {
 		id = EKN_build_horse_yards
-		icon = GFX_focus_read_the_capital
+		icon = GFX_focus_civ_horses
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = {
@@ -773,6 +775,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = EKN_horse_workers
+			focus = EKN_build_everything
 		}
 		x = 23
 		y = 1
@@ -836,26 +839,147 @@ focus_tree = {
 		prerequisite = {
 			focus = EKN_read_the_capital
 		}
-		mutually_exclusive = {
-			focus = EKN_build_horse_yards
-		}
-		x = 27
+		x = 29
 		y = 1
 		completion_reward = {
+			add_manpower = -2000
 			add_resource = { type = steel amount = 6 state = 564 }
 			add_resource = { type = tungsten amount = 6 state = 566 }
 		}
 	}
 
 	focus = {
-		id = EKN_horse_workers
-		icon = GFX_focus_read_the_capital
+		id = EKN_build_everything
+		icon = GFX_focus_everything
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = {
 			focus = EKN_read_the_capital
 		}
-		x = 25
+		mutually_exclusive = {
+			focus = EKN_build_horse_yards
+			focus = EKN_horse_workers
+		}
+
+		x = 25	
+		y = 1
+		completion_reward = {
+			add_political_power = -200
+			add_manpower = -25000
+			add_stability = -0.1
+
+			random_owned_controlled_state = {
+				limit = {
+					industrial_complex = 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		random_owned_controlled_state = {
+				limit = {
+					industrial_complex = 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		random_owned_controlled_state = {
+				limit = {
+					industrial_complex = 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					arms_factory = 0
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		random_owned_controlled_state = {
+				limit = {
+					arms_factory = 0
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		random_owned_controlled_state = {
+				limit = {
+					arms_factory = 0
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = EKN_horse_workers
+		icon = GFX_focus_horse_workers
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = EKN_read_the_capital
+		}
+		mutually_exclusive = {
+			focus = EKN_build_horse_yards
+			focus = EKN_build_everything
+		}
+		x = 27
 		y = 1
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -918,6 +1042,7 @@ focus_tree = {
 			focus = EKN_horse_workers
 			focus = EKN_build_horse_yards
 			focus = EKN_expand_local_mines
+			focus = EKN_build_everything
 		}
 		mutually_exclusive = {
 			focus = EKN_make_roads_south
@@ -988,6 +1113,7 @@ focus_tree = {
 			focus = EKN_horse_workers
 			focus = EKN_build_horse_yards
 			focus = EKN_expand_local_mines
+			focus = EKN_build_everything
 		}
 		mutually_exclusive = {
 			focus = EKN_make_roads_north
@@ -1056,6 +1182,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = {
 			focus = EKN_build_horse_yards
+			focus = EKN_build_everything
 		}
 		x = 22
 		y = 3
@@ -1071,6 +1198,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = {
 			focus = EKN_horse_workers
+			focus = EKN_build_everything
 		}
 		x = 25
 		y = 3
@@ -1096,7 +1224,7 @@ focus_tree = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = infrastructure
-						level = 2`
+						level = 2
 						instant_build = yes
 					}
 				}
@@ -1121,7 +1249,8 @@ focus_tree = {
 		x = 27
 		y = 4
 		completion_reward = {
-			
+			add_resource = { type = oil amount = -16 state = 516 }
+			add_ideas = EKN_army_oil
 		}
 	}
 
@@ -1142,7 +1271,10 @@ focus_tree = {
 		x = 23
 		y = 4
 		completion_reward = {
-			
+			EKN_famine_level_up = yes
+			add_stability = 0.05
+			add_resource = { type = oil amount = -16 state = 516 }
+			add_ideas = EKN_agriculture_oil
 		}
 	}
 

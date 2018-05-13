@@ -635,10 +635,6 @@ MDL = {
 	color = rgb { 121  131  147 }
 	color_ui = rgb { 121  131  147 }
 }
-BNA = {
-	color = rgb { 23  28  89 }
-	color_ui = rgb { 23  28  89 }
-}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

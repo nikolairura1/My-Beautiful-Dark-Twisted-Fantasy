@@ -3678,6 +3678,31 @@ spriteTypes = {
 		name = "GFX_idea_EKN_stolen_scientists"
 		texturefile = "gfx/interface/ideas/generic_research_bonus.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_EKN_army_oil"
+		texturefile = "gfx/interface/ideas/EKN/army_oil.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_agriculture_oil"
+		texturefile = "gfx/interface/ideas/EKN/agriculture_oil.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_mosley_defense"
+		texturefile = "gfx/interface/ideas/EKN/mosley_defense.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_mosley_offence"
+		texturefile = "gfx/interface/ideas/EKN/mosley_offence.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_counter_mosley"
+		texturefile = "gfx/interface/ideas/EKN/counter_mosley.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_sea_blockade"
+		texturefile = "gfx/interface/ideas/generic_navy_bonus.dds"
+	}
+
 	###########
 	####################################
 	############

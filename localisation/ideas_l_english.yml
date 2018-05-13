@@ -2542,6 +2542,12 @@
  EKN_chinese_tools_construction:0 "Tools went into construction"
  EKN_chinese_tools_production:0 "Tools went into production"
  EKN_stolen_scientists:0 "Kidnapped scientists"
+ EKN_agriculture_oil:0 "Oil for agriculture"
+ EKN_army_oil:0 "Oil for army"
+ EKN_mosley_offence:0 "Aggresive position against Mosley"
+ EKN_mosley_defense:0 "Defensive position against Mosley"
+ EKN_counter_mosley:0 "Counter-Mosley strategy"
+ EKN_sea_blockade:0 "Naval blockade of Mosley"
 ################################
  
  SWE_first_among_equals:0 "First Among Equals"

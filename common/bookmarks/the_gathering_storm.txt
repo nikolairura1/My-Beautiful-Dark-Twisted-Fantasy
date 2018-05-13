@@ -31,17 +31,6 @@ bookmarks = {
 			focuses = {
 			}
 		}
-    		"EKN"={
-		  history = "EKN_BLITZKRIEG_DESC"
-		  ideology = fascism
-			ideas = {
-			EKN_legacy
-			EKN_incompetence
-     			 EKN_famine_1
-			}
-			focuses = {
-			}	
-		}
 		"SPR"={
 			history = "SPR_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -81,6 +70,21 @@ bookmarks = {
 
 
 		# minors from DLC ####
+		"EKN"={
+			minor = yes
+		  	history = "EKN_GATHERING_STORM_DESC"
+		  	ideology = fascism
+			ideas = {
+			EKN_legacy
+			EKN_incompetence
+     		EKN_famine_1
+			}
+			focuses = {
+				EKN_abandon_west
+				EKN_east_threat
+				EKN_prepare_invasion
+			}	
+		}
 		"POL"={
 			minor = yes
 			history = "POL_GATHERING_STORM_DESC"

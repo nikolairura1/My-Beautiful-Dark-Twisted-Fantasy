@@ -209,5 +209,115 @@ ideas = {
 			}
 		}
 
+		EKN_army_oil = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.2
+				industrial_capacity_factory = 0.3
+				industrial_capacity_dockyard = 0.3
+				supply_consumption_factor = -0.2
+			}
+		}
+
+		EKN_agriculture_oil = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				mobilization_speed = 0.1
+				conscription = 0.02
+				global_building_slots_factor = 0.1
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.1
+			}
+		}
+
+		EKN_mosley_offence = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			targeted_modifier = {
+				tag = KMK
+				attack_bonus_against = 0.1
+			}
+		}
+
+		EKN_mosley_defense = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = KMK
+				defense_bonus_against = 0.1
+			}
+		}
+
+		EKN_counter_mosley = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_core_defence_factor = 0.15
+			}
+		}
+
+		EKN_sea_blockade = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_dockyard = 0.2
+			}
+		}
 	}
 }
