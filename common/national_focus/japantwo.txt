@@ -9,7 +9,9 @@ focus_tree = {
 	}
 	default = no
 	
-	continous_focus_position = { x = 50 y = 1350 }
+	continuous_focus_position = { x = 50 y = 1350 }
+	
+	
 	focus = {
 		id = JAP_Diet
 		icon = GFX_goal_support_democracy

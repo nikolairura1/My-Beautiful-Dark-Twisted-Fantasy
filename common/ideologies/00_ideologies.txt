@@ -256,4 +256,4 @@ ideologies = {
 		ai_fascist = yes # 
 	}
 }
-}
+
