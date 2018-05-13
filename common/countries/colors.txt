@@ -631,6 +631,10 @@ MUR = {
 	color = rgb { 156 31 45 } # the maroon in Murcia's flag
 	color_ui = rgb { 156 31 45 } # the maroon in Murcia's flag
 }
+MDL = {
+	color = rgb { 121  131  147 }
+	color_ui = rgb { 121  131  147 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

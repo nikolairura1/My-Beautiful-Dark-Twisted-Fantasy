@@ -1,0 +1,66 @@
+﻿division_template = {
+
+	name = "Mandalorian Infantry"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+units = {
+
+	division= {	
+		name = "1st Mandalorian Infantry" 
+		location = 6384
+		division_template = "Mandalorian Infantry"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2nd Mandalorian Infantry" 
+		location = 6384
+		division_template = "Mandalorian Infantry"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3rd Mandalorian Infantry" 
+		location = 6384
+		division_template = "Mandalorian Infantry"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4th Mandalorian Infantry" 
+		location = 6384
+		division_template = "Mandalorian Infantry"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5th Mandalorian Infantry" 
+		location = 6384
+		division_template = "Mandalorian Infantry"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "6th Mandalorian Infantry" 
+		location = 6384
+		division_template = "Mandalorian Infantry"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "7th Mandalorian Infantry" 
+		location = 6384
+		division_template = "Mandalorian Infantry"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "8th Mandalorian Infantry" 
+		location = 6384
+		division_template = "Mandalorian Infantry"
+		start_experience_factor = 0.3
+	}
+	
+}
