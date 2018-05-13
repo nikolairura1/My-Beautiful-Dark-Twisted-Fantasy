@@ -599,6 +599,38 @@ DRR = {
 	color = rgb { 120  144  186 }
 	color_ui = rgb { 120  144  186 }
 }
+AND = {
+	color = rgb { 0 102 51 } # the green in Andalucia's flag
+	color_ui = rgb { 0 102 51 } # the green in Andalucia's flag
+}
+ARA = {
+	color = rgb { 232 25 6 }
+	color_ui = rgb { 232 25 6 }
+}
+CAT = {
+	color = rgb { 252 221 9 }
+	color_ui = rgb { 252 221 9 }
+}
+CST = {
+	color = rgb { 252  221  9 } #the yellow on Castile's flag
+	color_ui = rgb { 255  222  10 } #the yellow on Castile's flag
+}
+EUS = {
+	color = rgb { 213 43 30 } #the red in the Basque flag
+	color_ui = rgb { 213 43 30 } #the red in the Basque flag
+}
+GAL = {
+	color = rgb { 12 153 204 }
+	color_ui = rgb { 12 153 204 }
+}
+LEO = {
+	color = rgb { 116  44  100 } #the purple on Leon's flag
+	color_ui = rgb { 116  44  100 } #the purple on Leon's flag
+}
+MUR = {
+	color = rgb { 156 31 45 } # the maroon in Murcia's flag
+	color_ui = rgb { 156 31 45 } # the maroon in Murcia's flag
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
