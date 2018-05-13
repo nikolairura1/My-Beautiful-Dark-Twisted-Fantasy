@@ -31,22 +31,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_open_diplomacy
-		icon = GFX_goal_generic_alliance
-		cost = 1
-		x = 19
-		y = 10
-
-	}
-	focus = {
-		id = JAP_open_diplomacy
-		icon = GFX_goal_generic_alliance
-		cost = 1
-		x = 19
-		y = 10
-
-	}
-	focus = {
 		id = JAP_african_campaign
 		icon = GFX_goal_generic_position_armies
 		cost = 2

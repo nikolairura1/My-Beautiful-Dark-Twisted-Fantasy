@@ -3,6 +3,7 @@
 
  disney:0 "Market Disneyism"
  market_disneyism:0 "Market Disneyism"
+ ################################################# Countries
  JAP_fascism:0 "Japan"
  JAP_fascism_DEF:0 "Japan"
  JAP_democratic:0 "State of Japan"
@@ -23,3 +24,6 @@
  JAP_fascism_party:0 "Taisei Yokusankai"
  JAP_disney_party:0 "Walt Disney Co."
  JAP_disney_party_long:0 "Walt Disney Company"
+ ##################################################### Ideas
+ JAP_walter_disney:0 "Walt Disney"
+ JAP_walter_disney_DESC:0 "TBD"
