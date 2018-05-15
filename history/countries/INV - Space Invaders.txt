@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_KING_MARS_DESC"
 	picture = "gfx/leaders/INV/aanthor_khan.dds"
 	expire = "2800.8.11"
-	ideology = fascism
+	ideology = fascism_ideology
 	traits = {
 		#
 	}

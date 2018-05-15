@@ -140,6 +140,18 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"NWS"={
+			minor = yes
+			history = "NWS_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			    NWS_divided_kingdom
+			}
+			focuses = {
+			    NWS_cement_authority
+			    NWS_united_england
+			}
+		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

@@ -1,6 +1,6 @@
-﻿capital = 130
+﻿capital = 131
 
-OOB = "ALB_1936"
+OOB = "NRM_1936"
 
 set_technology = {
 	infantry_weapons = 1
@@ -36,12 +36,9 @@ set_politics = {
 
 set_convoys = 5
 
-#Victor Emmanuel III of Italy after 39
 create_country_leader = {
-	name = "King Zog"
-	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Albania_King_Zog.dds"
-	expire = "1965.1.1"
+	name = "Guthred"
+	picture = "Portrait_Northumbria_Guthred.dds"
 	ideology = despotism
 	traits = {
 		#
@@ -49,13 +46,13 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Xhemal Aranitasi"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	name = "King Guthred"
+	portrait_path = "gfx/leaders/NRM/Portrait_Northumbria_Guthred.dds"
 	traits = { }
-	skill = 2
-	attack_skill = 1
-    defense_skill = 3
+	skill = 3
+	attack_skill = 2
+    defense_skill = 2
     planning_skill = 2
-    logistics_skill = 1
+    logistics_skill = 2
 }
 

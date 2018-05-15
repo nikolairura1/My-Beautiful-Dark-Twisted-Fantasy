@@ -1,0 +1,329 @@
+﻿division_template = {
+	name = "Fyrd"			# Militia
+
+	division_names_group = NWS_Fyrd
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Huscarls"			# Infantry
+
+	division_names_group = NWS_Huscarls
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 2 }
+	}
+
+	support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	####FyrdMEN####
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6351
+		division_template = "Fyrd"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 6351
+		division_template = "Fyrd"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 11471
+		division_template = "Fyrd"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 11471
+		division_template = "Fyrd"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 11333
+		division_template = "Fyrd"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 11333
+		division_template = "Fyrd"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 7
+		}
+		location = 9239
+		division_template = "Fyrd"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 8
+		}
+		location = 11221
+		division_template = "Fyrd"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 9
+		}
+		location = 6318
+		division_template = "Fyrd"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 10
+		}
+		location = 3205
+		division_template = "Fyrd"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 11
+		}
+		location = 540
+		division_template = "Fyrd"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 12
+		}
+		location = 9458
+		division_template = "Fyrd"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 13
+		}
+		location = 3369
+		division_template = "Fyrd"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 14
+		}
+		location = 6335
+		division_template = "Fyrd"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 15
+		}
+		location = 6237
+		division_template = "Fyrd"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 16
+		}
+		location = 13070
+		division_template = "Fyrd"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	####ALFRED'S HOUSECARLS####
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6489
+		division_template = "Huscarls"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 6489
+		division_template = "Huscarls"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 3501
+		division_template = "Huscarls"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 3501
+		division_template = "Huscarls"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 6103
+		division_template = "Huscarls"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 6489
+		division_template = "Huscarls"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 7
+		}
+		location = 9297
+		division_template = "Huscarls"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+
+	}
+	division = { 
+	    division_name = {
+				is_name_ordered = yes
+				name_order = 8
+		}
+		location = 9297
+		division_template = "Huscarls"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "NWS" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+
+	}
+}

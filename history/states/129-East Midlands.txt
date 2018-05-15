@@ -16,11 +16,13 @@ state={
 
 		}
 		add_core_of = NEA
+		add_claim_by = NRM
+		add_claim_by = NWS
 
 	}
 
 	provinces={
-		364 3353 9250 9322 
+		296 364 3353 9250 9322 
 	}
 	manpower=2212021
 	buildings_max_level_factor=1.000

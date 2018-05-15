@@ -78,6 +78,7 @@ focus_tree = {
 		x = 4
 		y = 3
 		completion_reward = {
+		330 = {
 			add_building_construction = {
 			type = bunker
 			level = 6
@@ -113,7 +114,8 @@ focus_tree = {
 			level = 4
 			province = 10554
 			instant_build = yes
-			}
+			    }
+		    }
 		}
 	}
 
@@ -220,7 +222,7 @@ focus_tree = {
 				}
 				support = {
 					recon = { x = 0 y = 0 }
-					rtillery = { x = 0 y = 1 }
+					artillery = { x = 0 y = 1 }
 					engineer = { x = 0 y = 1 }
 				}
 			}

@@ -1,0 +1,108 @@
+﻿l_english:
+ ####PARTYNAMES####
+ NWS_fascism_party:0 "House of Wessex"
+ NWS_communism_party:0 "Communists"
+ NWS_democratic_party:0 "House of Wessex"
+ NWS_neutrality_party:0 "House of Wessex"
+ NRM_fascism_party:0 "House of Northumbria"
+ NRM_communism_party:0 "Communists"
+ NRM_democratic_party:0 "House of Northumbria"
+ NRM_neutrality_party:0 "House of Northumbria"
+ NEA_fascism_party:0 "Viking Host"
+ NEA_communism_party:0 "Communists"
+ NEA_democratic_party:0 "Saxon Rebels"
+ NEA_neutrality_party:0 "Saxon Rebels"
+
+ ####COUNTRYNAMES####
+ NWS_fascism:1 "Westseaxna Rice"
+ NWS_fascism_DEF:1 "Westseaxna Rice"
+ NWS_democratic:0 "Westseaxna Rice"
+ NWS_democratic_DEF:0 "Westseaxna Rice"
+ NWS_neutrality:1 "Westseaxna Rice"
+ NWS_neutrality_DEF:1 "Westseaxna Rice"
+ NWS_communism:2 "New Westseaxe"
+ NWS_communism_DEF:1 "New Westseaxe"
+ NWS_fascism_ADJ:0 "West-Saxon"
+ NWS_democratic_ADJ:0 "West-Saxon"
+ NWS_neutrality_ADJ:0 "West-Saxon"
+ NWS_communism_ADJ:0 "West-Saxon"
+
+ NRM_fascism:1 "Norþanhymbra Rice"
+ NRM_fascism_DEF:1 "Norþanhymbra Rice"
+ NRM_democratic:0 "Norþanhymbra Rice"
+ NRM_democratic_DEF:0 "Norþanhymbra Rice"
+ NRM_neutrality:1 "Norþanhymbra Rice"
+ NRM_neutrality_DEF:1 "Norþanhymbra Rice"
+ NRM_communism:2 "New Northumbria"
+ NRM_communism_DEF:1 "New Northumbria"
+ NRM_fascism_ADJ:0 "Northumbrian"
+ NRM_democratic_ADJ:0 "Northumbrian"
+ NRM_neutrality_ADJ:0 "Northumbrian"
+ NRM_communism_ADJ:0 "Northumbrian"
+
+ NEA_fascism:1 "Great Heathen Army"
+ NEA_fascism_DEF:1 "The Great Heathen Army"
+ NEA_democratic:0 "East Engla Rice"
+ NEA_democratic_DEF:0 "East Engla Rice"
+ NEA_neutrality:1 "East Engla Rice"
+ NEA_neutrality_DEF:1 "East Engla Rice"
+ NEA_communism:2 "New East Anglia"
+ NEA_communism_DEF:1 "New East Anglia"
+ NEA_fascism_ADJ:0 "Heathen"
+ NEA_democratic_ADJ:0 "East Anglian"
+ NEA_neutrality_ADJ:0 "East Anglian"
+ NEA_communism_ADJ:0 "East Anglian"
+
+ ####FOCUSLOC####
+ NWS_oak:0 "Oak"
+ NWS_ash:0 "Ash"
+ NWS_thorn:0 "Thorn"
+ NWS_cement_authority:0 "Cement Westseaxen Authority"
+ NWS_united_england:0 "A United Albion"
+ NWS_english_confederation:0 "An Albionic Alliance"
+ NWS_pacify_cornwall:0 "Pacify Dumnonia"
+ NWS_pacify_sussex:0 "Pacify Southseaxe"
+ NWS_pacify_northumbria:0 "Pacify Agmundrenesse"
+ NWS_pacify_mercia:0 "Pacify Mercia"
+
+ ####IDEALOC####
+ NWS_authority:0 "Westseaxen Authority"
+ NWS_divided_kingdom:0 "A Divided Kingdom"
+ NWS_mercian_separatism:0 "Mercian Seperatism"
+ NWS_sussex_separatism:0 "Southseaxen Seperatism"
+ NWS_cornish_separatism:0 "Dumnonian Seperatism"
+ NWS_northumbrian_separatism:0 "Northumbrian Seperatism"
+
+ ####VICTORYPOINTS####
+ VICTORY_POINTS_540:0 "Exanceaster"
+ VICTORY_POINTS_6103:0 "Lunden"
+ VICTORY_POINTS_9297:0 "Tamworthige"
+ VICTORY_POINTS_11299:0 "Bebbanburg"
+ VICTORY_POINTS_3369:0 "Bathanceaster"
+ VICTORY_POINTS_6384:0 "Ceaster"
+ VICTORY_POINTS_9379:0 "Loidis"
+ VICTORY_POINTS_9392:0 "Eidenburg"
+ VICTORY_POINTS_3501:0 "Cantwaraburg"
+ VICTORY_POINTS_322:0 "Northwic"
+ VICTORY_POINTS_9269:0 "Eoferwic"
+ VICTORY_POINTS_6318:0 "Mameceaster"
+ VICTORY_POINTS_9458:0 "Seolesigge"
+ VICTORY_POINTS_6489:0 "Wintanceaster"
+
+ ####STATENAMES####
+ STATE_123:0 "Dumnonia"
+ STATE_125:0 "Norfolc"
+ STATE_126:0 "Middleseaxe"
+ STATE_127:0 "Southseaxe"
+ STATE_128:0 "Mierce"
+ STATE_129:0 "Lindesege"
+ STATE_130:0 "Deira"
+ STATE_131:0 "Norþanhymbra"
+ STATE_132:0 "Agmundrenesse"
+ STATE_338:0 "Westseaxe"
+ 
+ 
+ 
+ 
+ 
+
