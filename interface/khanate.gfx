@@ -1,0 +1,199 @@
+####   Khanate GFX  ####
+spriteTypes = {	
+
+	####   FOCUS ICONS   ####
+
+	SpriteType = { 
+		name = "GFX_focus_mosley_danger"
+		texturefile = "gfx/interface/goals/EKN/mosley_danger.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_oppose_mosley"
+		texturefile = "gfx/interface/goals/EKN/oppose_mosley.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_mosley_blockade"
+		texturefile = "gfx/interface/goals/EKN/mosley_blockade.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_urals"
+		texturefile = "gfx/interface/goals/EKN/urals.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_mongolian_planes"
+		texturefile = "gfx/interface/goals/EKN/mongolian_planes.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_steal_guns"
+		texturefile = "gfx/interface/goals/EKN/steal_guns.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_study_guns"
+		texturefile = "gfx/interface/goals/EKN/study_guns.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_mongolian_tanks"
+		texturefile = "gfx/interface/goals/EKN/mongolian_tanks.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_enforce_legacy"
+		texturefile = "gfx/interface/goals/EKN/enforce_legacy.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_finish_army"
+		texturefile = "gfx/interface/goals/EKN/finish_army.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_read_the_capital"
+		texturefile = "gfx/interface/goals/EKN/read_the_capital.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_everything"
+		texturefile = "gfx/interface/goals/EKN/everything.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_civ_horses"
+		texturefile = "gfx/interface/goals/EKN/civ_horses.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_horse_workers"
+		texturefile = "gfx/interface/goals/EKN/mil_horses.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_glowy"
+		texturefile = "gfx/interface/goals/EKN/glowy.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_roads_north"
+		texturefile = "gfx/interface/goals/EKN/roads_north.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_roads_south"
+		texturefile = "gfx/interface/goals/EKN/roads_south.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_feed_horses"
+		texturefile = "gfx/interface/goals/EKN/feed_horses.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_read_the_capital_shine"
+		texturefile = "gfx/interface/goals/EKN/read_the_capital.dds"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/EKN/read_the_capital.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/EKN/read_the_capital.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+    ##########  IDEAS    #############
+
+   
+	spriteType = {
+		name = "GFX_idea_EKN_legacy"
+		texturefile = "gfx/interface/ideas/idea_generic_motorized_equipment_manufacturer_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_incompetence"
+		texturefile = "gfx/interface/ideas/EKN/incompetence.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_famine_1"
+		texturefile = "gfx/interface/ideas/EKN/famine_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_famine_2"
+		texturefile = "gfx/interface/ideas/EKN/famine_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_famine_3"
+		texturefile = "gfx/interface/ideas/EKN/famine_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_famine_4"
+		texturefile = "gfx/interface/ideas/EKN/famine_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_famine_5"
+		texturefile = "gfx/interface/ideas/EKN/famine_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_chinese_tools_construction"
+		texturefile = "gfx/interface/ideas/generic_production_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_chinese_tools_production"
+		texturefile = "gfx/interface/ideas/generic_production_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_stolen_scientists"
+		texturefile = "gfx/interface/ideas/generic_research_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_army_oil"
+		texturefile = "gfx/interface/ideas/EKN/army_oil.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_agriculture_oil"
+		texturefile = "gfx/interface/ideas/EKN/agriculture_oil.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_mosley_defense"
+		texturefile = "gfx/interface/ideas/EKN/mosley_defense.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_mosley_offence"
+		texturefile = "gfx/interface/ideas/EKN/mosley_offence.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_counter_mosley"
+		texturefile = "gfx/interface/ideas/EKN/counter_mosley.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_sea_blockade"
+		texturefile = "gfx/interface/ideas/generic_navy_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EKN_prepare_army"
+		texturefile = "gfx/interface/ideas/idea_limited_conscription.dds"
+	}
+}

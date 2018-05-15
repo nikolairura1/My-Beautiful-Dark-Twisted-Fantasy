@@ -2527,7 +2527,11 @@
  MAN_showa_steel_works:0 "Anshan Steel Works"
  CHI_illegal_regime:0 "Illegal Regime"
  
-####### Khan`s property ########
+ SWE_first_among_equals:0 "First Among Equals"
+ SWE_first_among_equals_desc:0 "Although Sweden is the leading partner of the union between them and Norway, Norway has it's own parliament, army, navy, and airforce, many members of which do not speak Swedish, causing communication issues in the governments and militaries of Sweden-Norway."
+
+ ####### Khanate Stuff (Doesnt fit into the custom .yml file for some reason) ######
+
  EKN_legacy:0 "Legacy of Genghis Khan"
  EKN_legacy_desc:0 "Although our great Khan died centuries ago, his legacy is still alive in people`s hearts, but can it be apllied to the modern times?"
  EKN_incompetence:0 "Incompetence of the army"
@@ -2548,7 +2552,6 @@
  EKN_mosley_defense:0 "Defensive position against Mosley"
  EKN_counter_mosley:0 "Counter-Mosley strategy"
  EKN_sea_blockade:0 "Naval blockade of Mosley"
-################################
- 
- SWE_first_among_equals:0 "First Among Equals"
- SWE_first_among_equals_desc:0 "Although Sweden is the leading partner of the union between them and Norway, Norway has it's own parliament, army, navy, and airforce, many members of which do not speak Swedish, causing communication issues in the governments and militaries of Sweden-Norway."
+ EKN_prepare_army:0 "Army preparations"
+
+ ####################################

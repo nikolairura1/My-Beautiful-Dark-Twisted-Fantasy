@@ -581,11 +581,3 @@
  SWE_NOR_communism:0 "Sweden-Norway"
  SWE_NOR_communism_DEF:0 "United Communes of Sweden and Norway"
  
- EKN_AS_fascism:0 "Asian Khanate"
- EKN_AS_fascism_DEF:0 "Asian Khanate"
- EKN_AS_neutrality:0 "Asian Mongol Empire"
- EKN_AS_neutrality_DEF:0 "Asian Mongol Empire"
- EKN_AS_democratic:0 "Asian Mongol Republic"
- EKN_AS_democratic_DEF:0 "Asian Mongol Republic"
- EKN_AS_communism:0 "Asian Mongol Union"
- EKN_AS_communism_DEF:0 "Socialist Union of Asian Mongols"

@@ -115,3 +115,31 @@ country_event = {
 		add_ideas = EKN_mosley_offence
 	}
 }
+
+country_event = {
+	id = khanate.5
+	title = khanate.5.t
+	desc = khanate.5.d
+	picture = GFX_report_event_generic_research_lab
+
+	is_triggered_only = yes
+
+	option = {
+		name = khanate.5.a
+		add_stability = -0.05
+		add_tech_bonus = { bonus = 0.3 uses = 2 category = nuclear }
+	}
+
+	option = {
+		name = khanate.5.b
+		add_stability = 0.05
+		575 = {
+			add_extra_state_shared_building_slots = 10
+			add_building_construction = {
+				type = industrial_complex
+				level = 8
+				instant_build = yes
+			}
+		}
+	}
+}

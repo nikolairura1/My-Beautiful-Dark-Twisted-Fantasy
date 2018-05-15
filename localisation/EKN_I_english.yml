@@ -1,0 +1,78 @@
+﻿l_english:
+ ####PARTY NAMES####
+
+
+ ####COUNTRY NAMES####
+ EKN_fascism:1 "Eurasian Khanate"
+ EKN_fascism_DEF:1 "Eurasian Khanate"
+ EKN_democratic:0 "Eurasian Khanate"
+ EKN_democratic_DEF:0 "Eurasian Khanate"
+ EKN_neutrality:1 "Eurasian Khanate"
+ EKN_neutrality_DEF:1 "Eurasian Khanate"
+ EKN_communism:2 "Eurasian Khanate"
+ EKN_communism_DEF:1 "Eurasian Khanate"
+ EKN_fascism_ADJ:0 "Eurasian"
+ EKN_democratic_ADJ:0 "Eurasian"
+ EKN_neutrality_ADJ:0 "Eurasian"
+ EKN_communism_ADJ:0 "Eurasian"
+
+ EKN_AS_fascism:0 "Asian Khanate"
+ EKN_AS_fascism_DEF:0 "Asian Khanate"
+ EKN_AS_neutrality:0 "Asian Mongol Empire"
+ EKN_AS_neutrality_DEF:0 "Asian Mongol Empire"
+ EKN_AS_democratic:0 "Asian Mongol Republic"
+ EKN_AS_democratic_DEF:0 "Asian Mongol Republic"
+ EKN_AS_communism:0 "Asian Mongol Union"
+ EKN_AS_communism_DEF:0 "Socialist Union of Asian Mongols"
+
+ ####FOCUS LOC####
+
+
+ ####IDEA LOC####
+ EKN_legacy:0 "Legacy of Genghis Khan"
+ EKN_legacy_desc:0 "Although our great Khan died centuries ago, his legacy is still alive in people`s hearts, but can it be apllied to the modern times?"
+ EKN_incompetence:0 "Incompetence of the army"
+ EKN_incompetence_desc:0 "Our army has been using horses for centuries, thus making it incompetent in using any other tactics"
+ EKN_famine_5:0 "Famine conquered"
+ EKN_famine_4:0 "Stagnating famine"
+ EKN_famine_3:0 "Dropping famine"
+ EKN_famine_2:0 "Terrible famine"
+ EKN_famine_1:0 "Ravaging famine"
+ EKN_famine_up_tt:0 "§GReduces§! famine:\n"
+ EKN_famine_down_tt:0 "§RIncreaces§! famine:\n"
+ EKN_chinese_tools_construction:0 "Tools went into construction"
+ EKN_chinese_tools_production:0 "Tools went into production"
+ EKN_stolen_scientists:0 "Kidnapped scientists"
+ EKN_agriculture_oil:0 "Oil for agriculture"
+ EKN_army_oil:0 "Oil for army"
+ EKN_mosley_offence:0 "Aggresive position against Mosley"
+ EKN_mosley_defense:0 "Defensive position against Mosley"
+ EKN_counter_mosley:0 "Counter-Mosley strategy"
+ EKN_sea_blockade:0 "Naval blockade of Mosley"
+ EKN_prepare_army:0 "Army preparations"
+
+ ######EVENTS LOC########
+ khanate.1.t:0 "Our history."
+ khanate.1.d:0 "After long years of border clashes with China, we finally set in our border, but our capital was far too close to our potential enemy. Did we move it?"
+ khanate.1.a:0 "Nah, just fortified it."
+ khanate.1.b:0 "Ofcourse, safety was first!"
+ khanate.2.t:0 "The question of stolen tools"
+ khanate.2.d:0 "In our clashes with China we managed to steal some of their latest top-notch tools. What did we do with them? "
+ khanate.2.a:0 "Put them into our factories."
+ khanate.2.b:0 "Gave them to our builders."
+ khanate.3.t:0 "The question of kidnapped scientists"
+ khanate.3.d:0 "After our shameful retreat from Beijing, we managed to lay our hands on some sort of Chinese research facility and stole all the scientists we could grab. What did we do to them?"
+ khanate.3.a:0 "Integrated them into our society."
+ khanate.3.b:0 "KILLED THEM ALL!"
+ khanate.4.t:0 "Eastern Threat"
+ khanate.4.d:0 "While our other borders are in constant clashes, the eastern one was relatively safe, until the british fascist Mosley established his reich there. What position should we take about him?"
+ khanate.4.a:0 "Lets prepare for the best"
+ khanate.4.b:0 "Lets prepare for the worst"
+ khanate.5.t:0 "The green glowy stuff"
+ khanate.5.d:0 "Recently, our miners near Ural has found some weird ore, that glows in the dark and makes everyone around it feel sick, people started naming it a "Devil Stone", what should we do about it?"
+ khanate.5.a:0 "We fear no devil, buy some books and study this phemonenon!"
+ khanate.5.b:0 "The devil is no good... We should sell it to someone else..."
+ ####VICTORY POINTS####
+
+
+ ####STATE NAMES####
