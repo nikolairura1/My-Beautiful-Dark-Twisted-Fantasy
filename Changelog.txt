@@ -20,3 +20,9 @@ RangerNCR 05/10/18
 	-Added INV - Martian Horde for future events in Khanate
 	-Preety much the whole commit is a development of Khanate
 	-Added necessary files and loc in the folder
+
+RangerNCR 05/13/18
+	-Loading screens
+	-More stuff for Khanate
+	-Moved Khanate to Minors
+	-Little fixes and stuff

@@ -1,0 +1,282 @@
+﻿division_template = {
+	name = "Svensk Infanteri"			# SWEDISH INFANTRY
+	division_names_group = SWE_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # Regiment of 155mm howitzers, 105mm arty
+		engineer = { x = 0 y = 1 }   
+		recon = { x = 0 y = 2 }      # Recon consisted of ACs, motorcycle inf, cavalry
+	}
+}
+
+division_template = {
+	name = "Norsk Infanteri"			# NORWEGIAN INFANTRY
+	division_names_group = NOR_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # Regiment of 155mm howitzers, 105mm arty
+		engineer = { x = 0 y = 1 }   
+		recon = { x = 0 y = 2 }      # Recon consisted of ACs, motorcycle inf, cavalry
+	}
+}
+
+
+division_template = {
+	name = "Svensk Kavalleri"  	# SWEDISH CAVALRY
+	division_names_group = SWE_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon consisted of ACs, motorcycle inf, cavalry
+	}
+}
+
+division_template = {
+	name = "Norsk Kavalleri"  	# NORWEGIAN CAVALRY
+	division_names_group = NOR_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon consisted of ACs, motorcycle inf, cavalry
+	}
+}
+
+division_template = {
+	name = " Pansarregemente"  	
+	division_names_group = SWE_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon consisted of ACs, motorcycle inf, cavalry
+	}
+}
+division_template = {
+	name = "Svensk Garnison"			# SWEDISH GARRISON
+	division_names_group = SWE_GAR_01
+	# For reserve and independent regiments, lower experience and equipment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Norsk Garnison"			# NORWEGIAN GARRISON
+	division_names_group = NOR_GAR_01
+	# For reserve and independent regiments, lower experience and equipment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+units = {
+	######## LAND UNITS ########
+	##### SWEDISH ARMY #####
+	## INFANTRY
+	division = { # "I. Svensk Infanteri"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6050 # Stockholm
+		division_template = "Svensk Infanteri"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = { # "I. Svensk Infanteri"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6050 # Stockholm
+		division_template = "Svensk Infanteri"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = { # "I. Svensk Infanteri"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 6208 #Finnish Border
+		division_template = "Svensk Infanteri"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = { # "I. Svensk Infanteri"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 6170 #Finnish Border
+		division_template = "Svensk Infanteri"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = { # "I. Svensk Infanteri"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 61 #Finnish Border
+		division_template = "Svensk Infanteri"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = { # "I. Svensk Infanteri"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 6168 #Finnish Border
+		division_template = "Svensk Infanteri"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = { # "I. Svensk Infanteri"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 201 #Finnish Border
+		division_template = "Svensk Infanteri"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = { # "I. Svensk Infanteri"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 9147 #Finnish Border
+		division_template = "Svensk Infanteri"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = { # "I. Svensk Infanteri"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 6345 #North of Malmo, near Copenhagen
+		division_template = "Svensk Infanteri"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+	##### NAVAL UNITS #####
+	navy = {
+		name = "Svenskaflottan"
+		base = 6050 
+		location = 6050 # Stockholm
+		ship = { name = "HMS Dristigheten" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }	
+		ship = { name = "HMS Sverige" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }			
+		ship = { name = "HMS Gustaf V" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }	
+		ship = { name = "HMS Äran" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+		ship = { name = "HMS Drottning Victoria" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }		
+		ship = { name = "HMS Tapperheten" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }	
+		ship = { name = "HMS Wasa" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }				
+		ship = { name = "HMS Manligheten" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+		ship = { name = "HMS Oscar II" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }		
+		ship = { name = "HMS Fylgia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }		
+		ship = { name = "HMS Gotland" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }		
+		ship = { name = "HMS Åland" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }		
+		ship = { name = "HMS Örnen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }		
+		ship = { name = "HMS Jacob Bagge" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }					
+		ship = { name = "HMS Klas Horn" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }		
+		ship = { name = "HMS Klas Uggla" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }		
+		ship = { name = "HMS Ehrensköld" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }		
+		ship = { name = "HMS Nordenskjöld" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE }}}
+		ship = { name = "HMS Draken" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE version_name = "Draken Class" } } }
+		ship = { name = "HMS Gripen" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE version_name = "Draken Class" } } }
+		ship = { name = "HMS Ulven" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE version_name = "Draken Class" } } }
+		ship = { name = "HMS Hajen" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE } } }
+		ship = { name = "HMS Sälen" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE } } }
+		ship = { name = "HMS Valrossen" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE } } }
+		ship = { name = "HMS Bävern" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE } } }
+		ship = { name = "HMS Illern" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE } } }
+		ship = { name = "HMS Uttern" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE } } }
+		ship = { name = "HMS Valen" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE } } }
+	}
+	
+	navy = {
+		name = "Norskflåte"
+		base = 6115 
+		location = 6115 # Oslo	
+		ship = { name = "HMS Norge" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }			
+		ship = { name = "HMS Svalbard" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }		
+		ship = { name = "HMS Jan Mayen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SWE } } }		
+		ship = { name = "HMS Roald Amundsen" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE version_name = "Draken Class" } } }
+		ship = { name = "HMS Leif Erikson" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE version_name = "Draken Class" } } }
+		ship = { name = "HMS Hjalmar Johansen" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SWE version_name = "Draken Class" } } }
+	}
+}
+
+### Flygvapnet ###
+air_wings = {
+	141 = {
+		# 1. Bombflyggruppen -- Hawker Harts
+		CAS_equipment_1 = {
+			owner = "SWE" 
+			amount = 92
+		}
+		# 5. Jaktflyggruppen -- Bristol Bulldogs, Svenska Jaktfalks, Centrala Malmslatts
+		fighter_equipment_0 =  {
+			owner = "SWE" 
+			amount = 120
+		}
+	}
+	140 = {
+		# 2. Torpedflyggruppen -- Heinkel HD 16s
+		cv_nav_bomber_equipment_1 =  {
+			owner = "SWE" 
+			amount = 84
+		}
+	}
+}

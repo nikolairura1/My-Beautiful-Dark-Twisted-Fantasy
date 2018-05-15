@@ -1,0 +1,84 @@
+﻿add_namespace = londinium
+
+#The Meme Invasion begins
+country_event = {
+	id = londinium.1
+	title = londinium.1.t
+	desc = londinium.1.d
+	picture = GFX_report_event_generic_bombers
+	
+	fire_only_once = yes
+	
+	trigger = {
+		TAG = NWS
+		date > 1936.1.5
+		NWS = { controls_state = 132 }
+	}
+	
+	option = {
+		name = londinium.1.a
+		ai_chance = { factor = 100 }
+		custom_effect_tooltip = tt_londinium_event_1_a
+		hidden_effect = {
+			MDL = { transfer_state = 132 }
+			132 = { set_state_name = "Combat Zone" }
+			MDL = { country_event = { days = 1 id = londinium.2 } }
+		}
+	}
+	
+	option = {
+		name = londinium.1.b
+		ai_chance = { factor = 0 }
+		custom_effect_tooltip = tt_londinium_event_1_b
+	}
+}
+
+#Get support
+country_event = {
+	id = londinium.2
+	title = londinium.2.t
+	desc = londinium.2.d
+	picture = GFX_report_event_generic_train
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = londinium.2.a
+		ai_chance = { factor = 100 }
+		add_ideas = MDL_idea_support_from_home
+		hidden_effect = {
+			load_oob = MDL_support_from_home
+			MDL = { country_event = { days = 1 id = londinium.3 } }
+		}
+	}
+	
+}
+
+#Go to War
+country_event = {
+	id = londinium.3
+	title = londinium.3.t
+	desc = londinium.3.d
+	picture = GFX_report_event_generic_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = londinium.3.a
+		ai_chance = { factor = 30 }
+		declare_war_on = { target = NWS type = annex_everything }
+	}
+	
+	option = {
+		name = londinium.3.b
+		ai_chance = { factor = 69 }
+		declare_war_on = { target = NRM type = annex_everything }
+	}
+	
+	option = {
+		name = londinium.3.c
+		ai_chance = { factor = 1 }
+		custom_effect_tooltip = tt_londinium_event_3_c
+	}
+
+}

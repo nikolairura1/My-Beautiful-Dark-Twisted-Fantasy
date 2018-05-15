@@ -73,14 +73,36 @@
  NWS_cornish_separatism:0 "Dumnonian Seperatism"
  NWS_northumbrian_separatism:0 "Northumbrian Seperatism"
 
- ####EFFECTSLOC####
+ ####VICTORYPOINTS####
+ VICTORY_POINTS_540:0 "Exanceaster"
+ VICTORY_POINTS_6103:0 "Lunden"
+ VICTORY_POINTS_9297:0 "Tamworthige"
+ VICTORY_POINTS_11299:0 "Bebbanburg"
+ VICTORY_POINTS_3369:0 "Bathanceaster"
+ VICTORY_POINTS_6384:0 "Ceaster"
+ VICTORY_POINTS_9379:0 "Loidis"
+ VICTORY_POINTS_9392:0 "Eidenburg"
+ VICTORY_POINTS_3501:0 "Cantwaraburg"
+ VICTORY_POINTS_322:0 "Northwic"
+ VICTORY_POINTS_9269:0 "Eoferwic"
+ VICTORY_POINTS_6318:0 "Mameceaster"
+ VICTORY_POINTS_9458:0 "Seolesigge"
+ VICTORY_POINTS_6489:0 "Wintanceaster"
+
+ ####STATENAMES####
+ STATE_123:0 "Dumnonia"
+ STATE_125:0 "Norfolc"
+ STATE_126:0 "Middleseaxe"
+ STATE_127:0 "Southseaxe"
+ STATE_128:0 "Mierce"
+ STATE_129:0 "Lindesege"
+ STATE_130:0 "Deira"
+ STATE_131:0 "Norþanhymbra"
+ STATE_132:0 "Agmundrenesse"
+ STATE_338:0 "Westseaxe"
  
- ####TRAITSLOC####
  
- ####EVENTSLOC####
  
- ####UKRAINENEWSEVENTSLOC####
  
- ####TECHLOC####
  
 

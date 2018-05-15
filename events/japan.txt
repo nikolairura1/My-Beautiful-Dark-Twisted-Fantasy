@@ -1,0 +1,23 @@
+﻿add_namespace = japan
+
+country_event = {
+	id = japan.1
+	title = japan.1.t
+	desc = japan.1.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	option = {
+		name = japan.1.a
+		add_ideas = JAP_walter_disney
+		set_politics = {
+			ruling_party = disney
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = disney
+			popularity = 1
+		}
+	}
+}

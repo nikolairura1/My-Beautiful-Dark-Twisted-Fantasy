@@ -96,3 +96,22 @@ country_event = {
 		add_stability = 0.1
 	}
 }
+
+country_event = {
+	id = khanate.4
+	title = khanate.4.t
+	desc = khanate.4.d
+	picture = GFX_report_event_military_planning
+
+	is_triggered_only = yes
+
+	option = {
+		name = khanate.4.a
+		add_ideas = EKN_mosley_defense
+	}
+
+	option = {
+		name = khanate.4.b
+		add_ideas = EKN_mosley_offence
+	}
+}

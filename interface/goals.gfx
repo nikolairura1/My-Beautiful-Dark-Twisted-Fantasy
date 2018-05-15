@@ -1252,57 +1252,72 @@ spriteTypes = {
 
 	SpriteType = { 
 		name = "GFX_focus_mosley_danger"
-		texturefile = "gfx/interface/goals/mosley_danger.dds"
+		texturefile = "gfx/interface/goals/EKN/mosley_danger.dds"
 	}
 
 	SpriteType = { 
 		name = "GFX_focus_oppose_mosley"
-		texturefile = "gfx/interface/goals/oppose_mosley.dds"
+		texturefile = "gfx/interface/goals/EKN/oppose_mosley.dds"
 	}
 
 	SpriteType = { 
 		name = "GFX_focus_mosley_blockade"
-		texturefile = "gfx/interface/goals/mosley_blockade.dds"
+		texturefile = "gfx/interface/goals/EKN/mosley_blockade.dds"
 	}
 
 	SpriteType = { 
 		name = "GFX_focus_urals"
-		texturefile = "gfx/interface/goals/urals.dds"
+		texturefile = "gfx/interface/goals/EKN/urals.dds"
 	}
 
 	SpriteType = { 
 		name = "GFX_focus_mongolian_planes"
-		texturefile = "gfx/interface/goals/mongolian_planes.dds"
+		texturefile = "gfx/interface/goals/EKN/mongolian_planes.dds"
 	}
 
 	SpriteType = { 
 		name = "GFX_focus_steal_guns"
-		texturefile = "gfx/interface/goals/steal_guns.dds"
+		texturefile = "gfx/interface/goals/EKN/steal_guns.dds"
 	}
 
 	SpriteType = { 
 		name = "GFX_focus_study_guns"
-		texturefile = "gfx/interface/goals/study_guns.dds"
+		texturefile = "gfx/interface/goals/EKN/study_guns.dds"
 	}
 
 	SpriteType = { 
 		name = "GFX_focus_mongolian_tanks"
-		texturefile = "gfx/interface/goals/mongolian_tanks.dds"
+		texturefile = "gfx/interface/goals/EKN/mongolian_tanks.dds"
 	}
 
 	SpriteType = { 
 		name = "GFX_focus_enforce_legacy"
-		texturefile = "gfx/interface/goals/enforce_legacy.dds"
+		texturefile = "gfx/interface/goals/EKN/enforce_legacy.dds"
 	}
 
 	SpriteType = { 
 		name = "GFX_focus_finish_army"
-		texturefile = "gfx/interface/goals/finish_army.dds"
+		texturefile = "gfx/interface/goals/EKN/finish_army.dds"
 	}
 
 	SpriteType = { 
 		name = "GFX_focus_read_the_capital"
-		texturefile = "gfx/interface/goals/read_the_capital.dds"
+		texturefile = "gfx/interface/goals/EKN/read_the_capital.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_everything"
+		texturefile = "gfx/interface/goals/EKN/everything.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_civ_horses"
+		texturefile = "gfx/interface/goals/EKN/civ_horses.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_horse_workers"
+		texturefile = "gfx/interface/goals/EKN/mil_horses.dds"
 	}
 
 	#############################

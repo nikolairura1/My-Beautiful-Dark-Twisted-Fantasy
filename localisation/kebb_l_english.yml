@@ -1,0 +1,29 @@
+﻿l_english:
+
+
+ disney:0 "Market Disneyism"
+ market_disneyism:0 "Market Disneyism"
+ ################################################# Countries
+ JAP_fascism:0 "Japan"
+ JAP_fascism_DEF:0 "Japan"
+ JAP_democratic:0 "State of Japan"
+ JAP_democratic_DEF:0 "the State of Japan"
+ JAP_neutrality:0 "Japanese Interim"
+ JAP_neutrality_DEF:0 "the Japanese Interim"
+ JAP_communism:0 "Japan"
+ JAP_communism_DEF:0 "Japan"
+ JAP_fascism_ADJ:0 "Japanese"
+ JAP_democratic_ADJ:0 "Japanese"
+ JAP_neutrality_ADJ:0 "Japanese"
+ JAP_communism_ADJ:0 "Japanese"
+ JAP_disney:0 "Walt Disney"
+ JAP_disney_DEF:0 "Walt Disney"
+ JAP_disney_ADJ:0 "Walter"
+ JAP_communism_party:0 "Nihon Kyosan-to"
+ JAP_democratic_party:0 "Rikken Minseito"
+ JAP_fascism_party:0 "Taisei Yokusankai"
+ JAP_disney_party:0 "Walt Disney Co."
+ JAP_disney_party_long:0 "Walt Disney Company"
+ ##################################################### Ideas
+ JAP_walter_disney:0 "Walt Disney"
+ JAP_walter_disney_DESC:0 "TBD"

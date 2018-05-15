@@ -28,7 +28,7 @@ state={
 
 		}
 		add_core_of = NWS
-
+        add_core_of = NRM
 	}
 
 	provinces={

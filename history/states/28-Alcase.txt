@@ -24,10 +24,6 @@ state={
 				bunker = 10
 
 			}
-			678 = {
-				bunker = 10
-
-			}
 			3629 = {
 				bunker = 10
 
@@ -37,10 +33,6 @@ state={
 
 			}
 			9503 = {
-				bunker = 10
-
-			}
-			9559 = {
 				bunker = 10
 
 			}

@@ -1,4 +1,4 @@
-graphical_culture = ENG
-graphical_culture_2d = ENG
+graphical_culture = western_european_gfx
+graphical_culture_2d = western_european_2d
 
 color = { 114 5 5 }
