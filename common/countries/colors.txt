@@ -599,10 +599,6 @@ DRR = {
 	color = rgb { 120  144  186 }
 	color_ui = rgb { 120  144  186 }
 }
-AND = {
-	color = rgb { 0 102 51 } # the green in Andalucia's flag
-	color_ui = rgb { 0 102 51 } # the green in Andalucia's flag
-}
 ARA = {
 	color = rgb { 232 25 6 }
 	color_ui = rgb { 232 25 6 }
@@ -634,6 +630,10 @@ MUR = {
 MDL = {
 	color = rgb { 121  131  147 }
 	color_ui = rgb { 121  131  147 }
+}
+NDA = {
+	color = rgb { 0 102 51 } # the green in Andalucia's flag
+	color_ui = rgb { 0 102 51 } # the green in Andalucia's flag
 }
 D01 = {
 	color = rgb { 200 100 31 }
