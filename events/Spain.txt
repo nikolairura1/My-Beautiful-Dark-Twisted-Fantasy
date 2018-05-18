@@ -56,7 +56,7 @@ country_event = {
 			EUS = {
 				add_state_core = 172
 				transfer_state = 172
-				#load_oob = EUS_1936
+				load_oob = EUS_1936
 			}
 			HOL = {
 				change_tag_from = SPR
@@ -100,7 +100,7 @@ country_event = {
 			EUS = {
 				add_state_core = 172
 				transfer_state = 172
-				#load_oob = EUS_1936
+				load_oob = EUS_1936
 			}
 			BEL = {
 				change_tag_from = SPR
@@ -144,7 +144,7 @@ country_event = {
 			EUS = {
 				add_state_core = 172
 				transfer_state = 172
-				#load_oob = EUS_1936
+				load_oob = EUS_1936
 				change_tag_from = SPR
 			}
 			#news_event = { hours = 6 id = news.63 }
@@ -185,7 +185,7 @@ country_event = {
 			EUS = {
 				add_state_core = 172
 				transfer_state = 172
-				#load_oob = EUS_1936
+				load_oob = EUS_1936
 			}
 			#news_event = { hours = 6 id = news.63 }
 			#set_global_flag = spanish_civil_war
@@ -214,17 +214,17 @@ country_event = {
 			CAT = {
 				add_state_core = 165
 				transfer_state = 165
-				#load_oob = CAT_1936
+				load_oob = CAT_1936
 			}
 			GAL = {
 				add_state_core = 171
 				transfer_state = 171
-				#load_oob = GAL_1936
+				load_oob = GAL_1936
 			}
 			MUR = {
 				add_state_core = 168
 				transfer_state = 168
-				#load_oob = MUR_1936
+				load_oob = MUR_1936
 			}
 			CAT = {
 				change_tag_from = SPR
@@ -246,17 +246,17 @@ country_event = {
 			CAT = {
 				add_state_core = 165
 				transfer_state = 165
-				#load_oob = CAT_1936
+				load_oob = CAT_1936
 			}
 			GAL = {
 				add_state_core = 171
 				transfer_state = 171
-				#load_oob = GAL_1936
+				load_oob = GAL_1936
 			}
 			MUR = {
 				add_state_core = 168
 				transfer_state = 168
-				#load_oob = MUR_1936
+				load_oob = MUR_1936
 			}
 			GAL = {
 				change_tag_from = SPR
@@ -278,17 +278,17 @@ country_event = {
 			CAT = {
 				add_state_core = 165
 				transfer_state = 165
-				#load_oob = CAT_1936
+				load_oob = CAT_1936
 			}
 			GAL = {
 				add_state_core = 171
 				transfer_state = 171
-				#load_oob = GAL_1936
+				load_oob = GAL_1936
 			}
 			MUR = {
 				add_state_core = 168
 				transfer_state = 168
-				#load_oob = MUR_1936
+				load_oob = MUR_1936
 				change_tag_from = SPR
 			}
 			#news_event = { hours = 6 id = news.63 }
@@ -307,17 +307,17 @@ country_event = {
 			CAT = {
 				add_state_core = 165
 				transfer_state = 165
-				#load_oob = CAT_1936
+				load_oob = CAT_1936
 			}
 			GAL = {
 				add_state_core = 171
 				transfer_state = 171
-				#load_oob = GAL_1936
+				load_oob = GAL_1936
 			}
 			MUR = {
 				add_state_core = 168
 				transfer_state = 168
-				#load_oob = MUR_1936
+				load_oob = MUR_1936
 			}
 			#news_event = { hours = 6 id = news.63 }
 			#set_global_flag = spanish_civil_war
@@ -341,6 +341,7 @@ country_event = {
 		trigger = { is_ai = no }
 		hidden_effect = {
 			remove_state_core = 41
+			remove_state_core = 118
 			remove_state_core = 166
 			remove_state_core = 167
 			remove_state_core = 169
@@ -354,7 +355,7 @@ country_event = {
 				transfer_state = 170
 				add_state_core = 174
 				transfer_state = 174
-				#load_oob = LEO_1936
+				load_oob = LEO_1936
 			}
 			CST = {
 				add_state_core = 41
@@ -363,24 +364,46 @@ country_event = {
 				transfer_state = 175
 				add_state_core = 176
 				transfer_state = 176
-				#load_oob = CST_1936
+				load_oob = CST_1936
 			}
 			NDA = {
+				add_state_core = 118
+				transfer_state = 118
 				add_state_core = 169
 				transfer_state = 169
 				add_state_core = 173
 				transfer_state = 173
-				#load_oob = AND_1936
+				load_oob = NDA_1936
 			}
 			ARA = {
 				add_state_core = 166
 				transfer_state = 166
 				add_state_core = 167
 				transfer_state = 167
-				#load_oob = ARA_1936
+				load_oob = ARA_1936
 			}
 			LEO = {
 				change_tag_from = SPR
+				declare_war_on = { target = ARA type = annex_everything }
+				declare_war_on = { target = CST type = annex_everything }
+				declare_war_on = { target = EUS type = annex_everything }
+				declare_war_on = { target = GAL type = annex_everything }
+				declare_war_on = { target = NDA type = annex_everything }
+			}
+			CST = {
+				declare_war_on = { target = ARA type = annex_everything }
+				declare_war_on = { target = EUS type = annex_everything }
+				declare_war_on = { target = MUR type = annex_everything }
+				declare_war_on = { target = NDA type = annex_everything }
+			}
+			NDA = {
+				declare_war_on = { target = ARA type = annex_everything }
+				declare_war_on = { target = MUR type = annex_everything }
+			}
+			ARA = {
+				declare_war_on = { target = CAT type = annex_everything }
+				declare_war_on = { target = EUS type = annex_everything }
+				declare_war_on = { target = MUR type = annex_everything }
 			}
 			news_event = { hours = 6 id = news.63 }
 			set_global_flag = spanish_civil_war
@@ -394,6 +417,7 @@ country_event = {
 		trigger = { is_ai = no }
 		hidden_effect = {
 			remove_state_core = 41
+			remove_state_core = 118
 			remove_state_core = 166
 			remove_state_core = 167
 			remove_state_core = 169
@@ -407,7 +431,7 @@ country_event = {
 				transfer_state = 170
 				add_state_core = 174
 				transfer_state = 174
-				#load_oob = LEO_1936
+				load_oob = LEO_1936
 			}
 			CST = {
 				add_state_core = 41
@@ -416,24 +440,46 @@ country_event = {
 				transfer_state = 175
 				add_state_core = 176
 				transfer_state = 176
-				#load_oob = CST_1936
+				load_oob = CST_1936
 			}
 			NDA = {
+				add_state_core = 118
+				transfer_state = 118
 				add_state_core = 169
 				transfer_state = 169
 				add_state_core = 173
 				transfer_state = 173
-				#load_oob = AND_1936
+				load_oob = NDA_1936
 			}
 			ARA = {
 				add_state_core = 166
 				transfer_state = 166
 				add_state_core = 167
 				transfer_state = 167
-				#load_oob = ARA_1936
+				load_oob = ARA_1936
+			}
+			LEO = {
+				declare_war_on = { target = ARA type = annex_everything }
+				declare_war_on = { target = CST type = annex_everything }
+				declare_war_on = { target = EUS type = annex_everything }
+				declare_war_on = { target = GAL type = annex_everything }
+				declare_war_on = { target = NDA type = annex_everything }
 			}
 			CST = {
 				change_tag_from = SPR
+				declare_war_on = { target = ARA type = annex_everything }
+				declare_war_on = { target = EUS type = annex_everything }
+				declare_war_on = { target = MUR type = annex_everything }
+				declare_war_on = { target = NDA type = annex_everything }
+			}
+			NDA = {
+				declare_war_on = { target = ARA type = annex_everything }
+				declare_war_on = { target = MUR type = annex_everything }
+			}
+			ARA = {
+				declare_war_on = { target = CAT type = annex_everything }
+				declare_war_on = { target = EUS type = annex_everything }
+				declare_war_on = { target = MUR type = annex_everything }
 			}
 			news_event = { hours = 6 id = news.63 }
 			set_global_flag = spanish_civil_war
@@ -446,6 +492,7 @@ country_event = {
 		trigger = { is_ai = no }
 		hidden_effect = {
 			remove_state_core = 41
+			remove_state_core = 118
 			remove_state_core = 166
 			remove_state_core = 167
 			remove_state_core = 169
@@ -459,7 +506,7 @@ country_event = {
 				transfer_state = 170
 				add_state_core = 174
 				transfer_state = 174
-				#load_oob = LEO_1936
+				load_oob = LEO_1936
 			}
 			CST = {
 				add_state_core = 41
@@ -468,24 +515,46 @@ country_event = {
 				transfer_state = 175
 				add_state_core = 176
 				transfer_state = 176
-				#load_oob = CST_1936
+				load_oob = CST_1936
 			}
 			NDA = {
+				add_state_core = 118
+				transfer_state = 118
 				add_state_core = 169
 				transfer_state = 169
 				add_state_core = 173
 				transfer_state = 173
-				#load_oob = AND_1936
+				load_oob = NDA_1936
 			}
 			ARA = {
 				add_state_core = 166
 				transfer_state = 166
 				add_state_core = 167
 				transfer_state = 167
-				#load_oob = ARA_1936
+				load_oob = ARA_1936
+			}
+			LEO = {
+				declare_war_on = { target = ARA type = annex_everything }
+				declare_war_on = { target = CST type = annex_everything }
+				declare_war_on = { target = EUS type = annex_everything }
+				declare_war_on = { target = GAL type = annex_everything }
+				declare_war_on = { target = NDA type = annex_everything }
+			}
+			CST = {
+				declare_war_on = { target = ARA type = annex_everything }
+				declare_war_on = { target = EUS type = annex_everything }
+				declare_war_on = { target = MUR type = annex_everything }
+				declare_war_on = { target = NDA type = annex_everything }
 			}
 			NDA = {
 				change_tag_from = SPR
+				declare_war_on = { target = ARA type = annex_everything }
+				declare_war_on = { target = MUR type = annex_everything }
+			}
+			ARA = {
+				declare_war_on = { target = CAT type = annex_everything }
+				declare_war_on = { target = EUS type = annex_everything }
+				declare_war_on = { target = MUR type = annex_everything }
 			}
 			news_event = { hours = 6 id = news.63 }
 			set_global_flag = spanish_civil_war
@@ -497,6 +566,7 @@ country_event = {
 		name = spain.3.e
 		hidden_effect = {
 			remove_state_core = 41
+			remove_state_core = 118
 			remove_state_core = 166
 			remove_state_core = 167
 			remove_state_core = 169
@@ -510,7 +580,7 @@ country_event = {
 				transfer_state = 170
 				add_state_core = 174
 				transfer_state = 174
-				#load_oob = LEO_1936
+				load_oob = LEO_1936
 			}
 			CST = {
 				add_state_core = 41
@@ -519,22 +589,46 @@ country_event = {
 				transfer_state = 175
 				add_state_core = 176
 				transfer_state = 176
-				#load_oob = CST_1936
+				load_oob = CST_1936
 			}
 			NDA = {
+				add_state_core = 118
+				transfer_state = 118
 				add_state_core = 169
 				transfer_state = 169
 				add_state_core = 173
 				transfer_state = 173
-				#load_oob = AND_1936
+				load_oob = NDA_1936
 			}
 			ARA = {
 				add_state_core = 166
 				transfer_state = 166
 				add_state_core = 167
 				transfer_state = 167
-				#load_oob = ARA_1936
+				load_oob = ARA_1936
+			}
+			LEO = {
+				declare_war_on = { target = ARA type = annex_everything }
+				declare_war_on = { target = CST type = annex_everything }
+				declare_war_on = { target = EUS type = annex_everything }
+				declare_war_on = { target = GAL type = annex_everything }
+				declare_war_on = { target = NDA type = annex_everything }
+			}
+			CST = {
+				declare_war_on = { target = ARA type = annex_everything }
+				declare_war_on = { target = EUS type = annex_everything }
+				declare_war_on = { target = MUR type = annex_everything }
+				declare_war_on = { target = NDA type = annex_everything }
+			}
+			NDA = {
+				declare_war_on = { target = ARA type = annex_everything }
+				declare_war_on = { target = MUR type = annex_everything }
+			}
+			ARA = {
 				change_tag_from = SPR
+				declare_war_on = { target = CAT type = annex_everything }
+				declare_war_on = { target = EUS type = annex_everything }
+				declare_war_on = { target = MUR type = annex_everything }
 			}
 			news_event = { hours = 6 id = news.63 }
 			set_global_flag = spanish_civil_war
