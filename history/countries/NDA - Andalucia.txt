@@ -29,26 +29,45 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 20
+			popularity = 10
 		}
 
 		fascism = {
-			popularity = 25
+			popularity = 55
 		}
 		
 		communism = {
-			popularity = 5
-		}
-		neutrality = {
-			popularity = 50
+			popularity = 35
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1933.2.16"
-	election_frequency = 36
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 60
 	elections_allowed = no
 }
 
 set_convoys = 100
 set_stability = 0.7
+
+create_country_leader = {
+	name = "José Díaz"
+	desc = "POLITICS_JOSE_DIAZ_DESC"
+	picture = "gfx/leaders/SPR/Portrait_Spain_Jose_Diaz.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Francisco Franco"
+	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
+	picture = "gfx/leaders/SPR/Portrait_Spain_Francisco_Franco.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}

@@ -384,25 +384,33 @@ country_event = {
 			}
 			LEO = {
 				declare_war_on = { target = ARA type = annex_everything }
+				declare_war_on = { target = CAT type = annex_everything }
 				declare_war_on = { target = CST type = annex_everything }
 				declare_war_on = { target = EUS type = annex_everything }
 				declare_war_on = { target = GAL type = annex_everything }
+				declare_war_on = { target = MUR type = annex_everything }
 				declare_war_on = { target = NDA type = annex_everything }
 				change_tag_from = SPR
 			}
 			CST = {
 				declare_war_on = { target = ARA type = annex_everything }
+				declare_war_on = { target = CAT type = annex_everything }
 				declare_war_on = { target = EUS type = annex_everything }
+				declare_war_on = { target = GAL type = annex_everything }
 				declare_war_on = { target = MUR type = annex_everything }
 				declare_war_on = { target = NDA type = annex_everything }
 			}
 			NDA = {
 				declare_war_on = { target = ARA type = annex_everything }
+				declare_war_on = { target = CAT type = annex_everything }
+				declare_war_on = { target = EUS type = annex_everything }
+				declare_war_on = { target = GAL type = annex_everything }
 				declare_war_on = { target = MUR type = annex_everything }
 			}
 			ARA = {
 				declare_war_on = { target = CAT type = annex_everything }
 				declare_war_on = { target = EUS type = annex_everything }
+				declare_war_on = { target = GAL type = annex_everything }
 				declare_war_on = { target = MUR type = annex_everything }
 			}
 			news_event = { hours = 6 id = news.63 }

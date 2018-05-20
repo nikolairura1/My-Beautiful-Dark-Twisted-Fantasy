@@ -29,7 +29,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 55
+			popularity = 35
 		}
 
 		fascism = {
@@ -37,11 +37,11 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 35
+			popularity = 55
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 60
 	elections_allowed = yes
@@ -49,3 +49,14 @@ set_politics = {
 
 set_convoys = 100
 set_stability = 0.7
+
+create_country_leader = {
+	name = "Lluís Companys"
+	desc = "POLITICS_LLUÍS_COMPANYS_DESC"
+	picture = "Portrait_Lluís_Companys.dds"
+	expire = "1965.1.1"
+	ideology = anarchist_communism
+	traits = {
+		#
+	}
+}
